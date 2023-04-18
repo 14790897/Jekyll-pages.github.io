@@ -29,10 +29,10 @@ logo                     : "/assets/images/favicon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider: "waline"
+comments: 
+  provider: waline
   waline:
-    serverURL: "https://comments.liuweiqing.life" # 替换为您的 Waline 服务器地址
+    serverURL: https://comments.liuweiqing.life
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
