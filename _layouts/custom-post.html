@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include head.html %}
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!-- 添加切换动画按钮 -->
+ <button onclick="toggleAnimation()" class="toggle-animation-btn">切换动画效果</button>
+
+<div class="container">
+  <div class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    <p>Thanks for reading!</p>
+  </div>
+</div>
+
+<!-- 添加 JavaScript 函数来切换动画 -->
+<script>
+  let animationEnabled = true;
+
+  function toggleAnimation() {
+    const bodyElement = document.querySelector("body");
+
+    if (animationEnabled) {
+      bodyElement.classList.add("animation-disabled");
+    } else {
+      bodyElement.classList.remove("animation-disabled");
+    }
+
+    animationEnabled = !animationEnabled;
+  }
+</script>

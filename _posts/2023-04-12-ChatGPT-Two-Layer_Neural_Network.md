@@ -1,0 +1,54 @@
+---
+layout: custom-post
+title: 机器学习之参数初始化
+date: 2023-04-12
+categories: tech
+---
+
+# Two-Layer Neural Network
+
+```
+num_inputs, num_outputs, num_hiddens = 784, 10, 256
+
+#初始化参数，W为正态分布随机变量*0.01，B为0
+W1 = nn.Parameter(torch.randn(num_inputs, num_hiddens, requires_grad=True) * 0.01)
+b1 = nn.Parameter(torch.zeros(num_hiddens, requires_grad=True))
+W2 = nn.Parameter(torch.randn(num_hiddens, num_outputs, requires_grad=True) * 0.01)
+b2 = nn.Parameter(torch.zeros(num_outputs, requires_grad=True))
+
+params = [W1, b1, W2, b2]
+```
+
+### 如果将w1和w2初始化为全0，会怎么样？
+
+如果将W1和W2初始化为全0，会导致神经网络在训练过程中出现一种现象叫做"对称权重"（Symmetric Weights）问题。这意味着每个神经元在同一层的权重会保持相同的值，因为它们会收到相同的梯度更新。
+
+初始化为全0会导致以下问题：
+
+1. 梯度消失：所有权重相同导致梯度更新也相同，神经网络在反向传播过程中可能无法学习到有意义的表示。
+
+2. 缺乏多样性：对于隐藏层神经元，如果它们的权重都相同，那么它们在计算过程中会学习到相同的特征，无法捕捉输入数据中的多样性。
+
+为了避免这些问题，通常使用一种称为“权重初始化”（Weight Initialization）的方法来初始化权重。通过给网络的权重矩阵赋予随机的初始值（通常是很小的值），可以打破对称性，使得每个神经元在训练过程中能学习到不同的特征。权重初始化有很多种方法，比如使用正态分布、均匀分布或者特定的初始化策略（如Xavier初始化、He初始化等）。
+
+### 什么是Xavier初始化、He初始化？
+
+Xavier初始化和He初始化是两种用于初始化神经网络权重的流行方法。这两种方法都旨在使权重矩阵具有适当的尺度，以便在训练过程中避免梯度消失或梯度爆炸现象。具体来说：
+
+1. Xavier初始化：又称为Glorot初始化，由Xavier Glorot和Yoshua Bengio在2010年提出。这种方法特别适用于使用Sigmoid激活函数或双曲正切（tanh）激活函数的神经网络。Xavier初始化根据输入和输出神经元的数量来调整权重矩阵的初始值。具体地说，权重矩阵中的元素从均匀分布或正态分布中抽取，其方差为：
+
+   ```
+   Var(W) = 2 / (n_in + n_out)
+   ```
+
+   其中，`n_in`是输入神经元的数量，`n_out`是输出神经元的数量。这样初始化权重可以使得每个神经元的输出具有相似的方差。
+
+2. He初始化：又称为Kaiming初始化，由Kaiming He等人在2015年提出。这种方法特别适用于使用ReLU激活函数（以及其变体，如Leaky ReLU、PReLU等）的神经网络。He初始化类似于Xavier初始化，但是只考虑输入神经元的数量来调整权重矩阵的初始值。具体地说，权重矩阵中的元素从均匀分布或正态分布中抽取，其方差为：
+
+   ```
+   Var(W) = 2 / n_in
+   ```
+
+   其中，`n_in`是输入神经元的数量。这样初始化权重可以使得每个神经元的输出具有相似的方差，从而有助于ReLU激活函数在训练过程中保持梯度的传播。
+
+这两种初始化方法都可以通过PyTorch等深度学习框架轻松地实现。选择合适的权重初始化方法有助于神经网络在训练过程中更快地收敛并实现更好的性能。

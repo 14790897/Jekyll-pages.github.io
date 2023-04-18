@@ -1,0 +1,98 @@
+---
+---
+
+@import "minimal-mistakes";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 5vw;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+.post-date {
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.post-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.post-footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: rgba(0, 255, 0, 0.1);
+    }
+    50% {
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+    100% {
+        background-color: rgba(0, 255, 0, 0.1);
+    }
+}
+body::before {
+    left: 0;
+    right: 50%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+body::after {
+    left: 50%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.05);
+}
+body::before,
+body::after {
+    animation: backgroundAnimation 10s infinite;
+}
+.animation-disabled::before,
+.animation-disabled::after {
+  animation: none !important;
+}
+//切换动画按钮样式4.11
+.toggle-animation-btn {
+            margin: 1rem;
+            font-family: '微软雅黑', Arial, sans-serif;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .toggle-animation-btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .toggle-animation-btn:active {
+            background-color: #666;
+            color: #fff;
+        }
+
