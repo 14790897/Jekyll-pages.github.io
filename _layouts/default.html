@@ -17,8 +17,10 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-    <!-- 4.19新增 -->
+    <!-- 4.19新增,导入粒子效果 -->
     {% include particles.html %}
+    <!-- 4.19新增切换粒子动画按钮 -->
+    <button id="toggleParticles" class="toggle-particles">开启粒子效果</button>
 
     <div class="initial-content">
       {{ content }}
@@ -38,6 +40,8 @@
     </div>
 
     {% include scripts.html %}
+    <!-- 4.19新增切换粒子动画按钮 -->
+    
 
   </body>
 </html>

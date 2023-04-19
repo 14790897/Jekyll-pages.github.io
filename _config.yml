@@ -219,7 +219,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-  add_charset: true
+  # add_charset: true
 
 
 # Outputting
