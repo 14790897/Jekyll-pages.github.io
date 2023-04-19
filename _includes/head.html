@@ -15,6 +15,15 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<!-- 4.19新增 -->
+<!-- <link rel="stylesheet" href="{{ '/assets/css/custom-for-comments.css' | relative_url }}"> -->
+<style>
+  .waline .archive__item {
+    display: block;
+    width: 100%;
+  }
+</style>
+
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
@@ -28,3 +37,15 @@
   rel="stylesheet"
   href="https://unpkg.com/@waline/client@v2/dist/waline.css"
 />
+
+<!-- <style>
+  .wl-editor {
+    width: 100% !important;
+  }
+  
+  .wl-editor,
+  .wl-input {
+    max-width: 100% !important;
+  }
+</style> -->
+
