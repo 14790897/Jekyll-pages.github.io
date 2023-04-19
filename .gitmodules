@@ -1,0 +1,3 @@
+[submodule "assets/js/particles-js"]
+	path = assets/js/particles-js
+	url = https://github.com/VincentGarreau/particles.js.git
