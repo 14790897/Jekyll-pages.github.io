@@ -33,6 +33,7 @@ comments:
   provider: waline
   waline:
     serverURL: https://comments.liuweiqing.life
+    style: false
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:

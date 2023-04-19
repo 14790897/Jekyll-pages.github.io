@@ -16,13 +16,7 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <!-- 4.19新增 -->
-<!-- <link rel="stylesheet" href="{{ '/assets/css/custom-for-comments.css' | relative_url }}"> -->
-<style>
-  .waline .archive__item {
-    display: block;
-    width: 100%;
-  }
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/custom-for-comments.css' | relative_url }}">
 
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
@@ -37,6 +31,13 @@
   rel="stylesheet"
   href="https://unpkg.com/@waline/client@v2/dist/waline.css"
 />
+<!-- 4.19新增 -->
+<style>
+  .waline .waline-textarea textarea {
+    width: 100% !important;
+  }
+  /* 在此处添加其他需要调整的Waline样式 */
+</style>
 
 <!-- <style>
   .wl-editor {
@@ -48,4 +49,5 @@
     max-width: 100% !important;
   }
 </style> -->
+
 
