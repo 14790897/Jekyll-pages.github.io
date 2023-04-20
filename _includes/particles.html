@@ -1,3 +1,11 @@
-<div id="particles-js"></div>
+<div id="particles-js" class="hidden"></div>
 <script src="{{ site.baseurl }}/assets/js/particles.js"></script>
 <script src="{{ site.baseurl }}/assets/js/app.js"></script>
+
+<script>
+  (function() {
+    var particlesContainer = document.getElementById("particles-js");
+    particlesContainer.style.display = "none";
+  })();
+</script>
+<script src="particles.js"></script>
