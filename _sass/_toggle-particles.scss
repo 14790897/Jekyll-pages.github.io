@@ -1,6 +1,4 @@
-#particles-js.hidden {
-  display: none;
-}
+
   
 .toggle-particles {
     position: fixed;
@@ -14,5 +12,7 @@
     cursor: pointer;
     z-index: 1000;
   }
-
+#particles-js.hidden {
+  display: none;
+}
   
