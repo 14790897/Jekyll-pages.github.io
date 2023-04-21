@@ -24,7 +24,7 @@ description              : "An amazing website."
 url                      : "https://liuweiqing.life"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/favicon.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/favicon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -101,9 +101,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-4BMYY5WRDR
     anonymize_ip         : # true, false (default)
 
 
