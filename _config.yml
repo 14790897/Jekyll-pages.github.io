@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "放轻松"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "WeiQing Liu"
+name                     : "Weiqing Liu"
 description              : "An amazing website."
 url                      : "https://liuweiqing.life"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -109,7 +109,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "WeiQing Liu"
+  name             : "Weiqing Liu"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "I am an **amazing** person."
   location         : "Shanghai"
