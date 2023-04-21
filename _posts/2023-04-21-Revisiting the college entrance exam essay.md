@@ -1,4 +1,8 @@
-# Revisiting the college entrance exam essay
+---
+title: Revisiting the college entrance exam essay
+---
+
+
 
 ## Question
 
