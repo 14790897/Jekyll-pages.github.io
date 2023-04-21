@@ -1,0 +1,47 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const cookieBanner = document.getElementById('cookie-banner');
+    const acceptButton = document.getElementById('cookie-accept');
+  
+    // 检查用户是否已同意 Cookie
+    const consent = getCookie('cookie_consent');
+    if (consent === null) {
+      // 如果用户尚未同意，则显示横幅
+      cookieBanner.style.display = 'flex';
+    }
+  
+    // 当用户点击同意按钮时
+    acceptButton.addEventListener('click', function () {
+      // 设置一个 Cookie 来记录用户的同意
+      setCookie('cookie_consent', 'true', 365);
+      // 隐藏横幅
+      cookieBanner.style.display = 'none';
+    });
+  });
+  
+  // 创建、读取和删除 Cookie 的辅助函数
+  function setCookie(name, value, days) {
+    let expires = '';
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = `; expires=${date.toUTCString()}`;
+    }
+    document.cookie = `${name}=${value || ''}${expires}; path=/`;
+  }
+  
+  function getCookie(name) {
+    const nameEQ = `${name}=`;
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  
+  function deleteCookie(name) {
+    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
+  }
+</script>

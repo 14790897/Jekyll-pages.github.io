@@ -297,6 +297,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      stylesheet: "assets/css/cookiesbanner.scss"
 
 
       
