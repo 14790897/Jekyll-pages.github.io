@@ -2,14 +2,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cookieBanner = document.getElementById('cookie-banner');
     const acceptButton = document.getElementById('cookie-accept');
-  
+
     // 检查用户是否已同意 Cookie
     const consent = getCookie('cookie_consent');
     if (consent === null) {
       // 如果用户尚未同意，则显示横幅
       cookieBanner.style.display = 'flex';
     }
-  
+
     // 当用户点击同意按钮时
     acceptButton.addEventListener('click', function () {
       // 设置一个 Cookie 来记录用户的同意
@@ -18,9 +18,34 @@ document.addEventListener('DOMContentLoaded', function () {
       cookieBanner.style.display = 'none';
     });
   });
-  
+
   // 创建、读取和删除 Cookie 的辅助函数
   function setCookie(name, value, days) {
+    let existingCookie = document.cookie;
+    let expires = '';
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = `; expires=${date.toUTCString()}`;
+    }
+
+    // 检查现有的 Cookie 是否包含这个键名
+    const nameIndex = existingCookie.indexOf(`${name}=`);
+
+    // 如果现有的 Cookie 不包含这个键名，那么将新的键值对添加到现有的 Cookie 末尾
+    if (nameIndex === -1) {
+      document.cookie = existingCookie + `${name}=${value || ''}${expires}; path=/`;
+    } else {
+      // 如果现有的 Cookie 包含这个键名，那么替换这个键名的值
+      let startIndex = nameIndex + `${name}=`.length;
+      let endIndex = existingCookie.indexOf(';', startIndex);
+      endIndex = endIndex === -1 ? existingCookie.length : endIndex;
+      existingCookie = existingCookie.slice(0, startIndex) + value + existingCookie.slice(endIndex);
+      document.cookie = existingCookie + expires + '; path=/';
+    }
+  }
+
+  function setCookie_NUll(name, value, days) {
     let expires = '';
     if (days) {
       const date = new Date();
@@ -29,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     document.cookie = `${name}=${value || ''}${expires}; path=/`;
   }
-  
+
   function getCookie(name) {
     const nameEQ = `${name}=`;
     const ca = document.cookie.split(';');
@@ -40,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     return null;
   }
-  
+
   function deleteCookie(name) {
     document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
   }

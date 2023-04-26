@@ -14,7 +14,14 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"
+                {% if link.title == "最新科技" %}
+                data-intro="这里有好玩的！"
+                data-step="1"
+                {% endif %}
+                {% if link.description %} title="{{ link.description }}"{% endif %}>
+                {{ link.title }}
+              </a>
             </li>
           {%- endfor -%}
         </ul>
