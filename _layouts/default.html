@@ -33,12 +33,6 @@
       </div>
     {% endif %}
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
     <div id="cookie-banner" class="cookie-banner" style="display: none;">
       <p>
         我们使用 Cookie 以确保您在我们的网站上获得最佳体验。继续浏览即表示您同意我们的
@@ -46,6 +40,14 @@
       </p>
       <button id="cookie-accept">同意</button>
     </div>
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
     {% include scripts.html %}
     <!-- 4.19新增,导入粒子效果 -->
     {% include particles.html %}
