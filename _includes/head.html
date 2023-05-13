@@ -37,11 +37,41 @@
 <!-- 4.26新增引导界面 -->
 <link rel="stylesheet" href="{{'/node_modules/intro.js/introjs.css' | relative_url }}">
 <script src="{{'/node_modules/intro.js/intro.js' | relative_url }}" async></script>
+<!--你在_config.yml中defaults的修改没有起作用5.13.2023-->
+<style>
+  .cookie-banner {
+    position: fixed; /* 这使得横幅相对于浏览器窗口定位 */
+    bottom: 0; /* 这使得横幅保持在底部 */
+    width: 100%; /* 这使得横幅占据全宽 */
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* 这使得横幅始终在其他元素之上 */
+    border-top: 1px solid #ccc;
+  }
 
-<!-- 4.20新增粒子默认不出现 -->
-  <!-- <style>
-    #particles-js.hidden {
-      display: none;
-    }
+  .cookie-banner p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    line-height: 1.5;
+  }
 
+  .cookie-banner a {
+    text-decoration: underline;
+  }
 
+  .cookie-banner button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+</style>
