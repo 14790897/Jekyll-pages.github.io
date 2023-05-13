@@ -39,7 +39,13 @@
         {% include_cached footer.html %}
       </footer>
     </div>
-
+    <div id="cookie-banner" class="cookie-banner" style="display: none;">
+      <p>
+        我们使用 Cookie 以确保您在我们的网站上获得最佳体验。继续浏览即表示您同意我们的
+        <a href="/cookie-policy" style="color: #4CAF50;">Cookie 政策</a>。
+      </p>
+      <button id="cookie-accept">同意</button>
+    </div>
     {% include scripts.html %}
     <!-- 4.19新增,导入粒子效果 -->
     {% include particles.html %}
