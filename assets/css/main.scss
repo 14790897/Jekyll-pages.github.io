@@ -7,4 +7,4 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "minimal-mistakes/cookie-banner";//5.13新增
+// @import "minimal-mistakes/cookie-banner";//5.13新增
