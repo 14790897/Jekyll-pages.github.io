@@ -111,14 +111,7 @@ analytics:
 author:
   name             : "Weiqing Liu"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "
-
-Hello, I'm Liu Weiqing, a passionate student from Shanghai, currently studying at the Beijing University of Chemical Technology. I am deeply interested in Python programming, Linux operations, and website creation. My technical skills have been honed through my involvement in various projects, including my personal website (liuweiqing.life), and significant contributions to [Nighttime Wisdom Star](https://github.com/14790897/Nighttime-Wisdom-Star) and [Pandora with Langchain Pandora API Usage](https://github.com/14790897/pandora-with-langchain_pandora-api-usage) on GitHub.
-
-Outside of my academic and professional pursuits, I am an avid cyclist and enjoy exploring my surroundings on two wheels. In my spare time, you can find me delving into new programming concepts or out on a cycling trail.
-
-Through my website, I aim to share my knowledge in programming and website creation, along with snippets of my daily life. I believe that learning is a continuous journey, and I'm excited to share this journey with you. Join me as we explore the fascinating world of technology together."
-
+  bio              : "I am an **amazing** person"
   location         : "Shanghai"
   email            : "mailto:14790897abc@gmail.com"
   links:
