@@ -1,5 +1,5 @@
 ---
-title:如何把Ubuntu上的程序打包成docker文件？
+title: 如何把Ubuntu上的程序打包成docker文件？
 date: 2023-05-18
 categories: Linux
 ---
