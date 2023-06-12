@@ -27,7 +27,7 @@ repository               : "14790897/Jekyll-pages.github.io" # GitHub username/r
 teaser                   : "/assets/images/favicon.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/favicon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true  # true, false (default)
+breadcrumbs              : false  # true, false (default)
 words_per_minute         : 200
 comments:
   provider: waline
