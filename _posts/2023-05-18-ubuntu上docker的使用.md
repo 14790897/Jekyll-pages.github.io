@@ -1,3 +1,9 @@
+---
+title:如何把Ubuntu上的程序打包成docker文件？
+date: 2023-05-18
+categories: Linux
+---
+
 ## 如何把Ubuntu上的程序打包成docker文件？
 
 要将 Ubuntu 上的程序打包成 Docker 镜像，您需要创建一个 Dockerfile，该文件描述了如何在 Docker 容器内部安装和设置程序。下面是一般的步骤：
