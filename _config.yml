@@ -305,9 +305,9 @@ defaults:
       show_date: true
       stylesheet: "assets/css/cookiesbanner.scss"
 
-collections:
-  categories:
-    output: true
-    permalink: /categories/:path/
+# collections:
+#   categories:
+#     output: true
+#     permalink: /categories/:path/
 
 
