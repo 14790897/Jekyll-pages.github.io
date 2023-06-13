@@ -4,7 +4,7 @@ title: "城市分类"
 ---
 
 {% for tag in site.tags %}
-  {% if cities contains tag[0] %}
+  {% if site.cities contains tag[0] %}
     <h2><a href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></h2>
   {% endif %}
 {% endfor %}
