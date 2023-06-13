@@ -3,8 +3,16 @@ layout: single
 title: "城市分类"
 ---
 
+<style>
+  .city-list {
+    display: inline-block; /* 让h2标签以行内块的方式显示 */
+    margin-right: 10px;   /* 每个h2标签的右边距 */
+    font-size: 1em;       /* 设置字体大小 */
+  }
+</style>
+
 {% for tag in site.tags %}
   {% if site.cities contains tag[0] %}
-    <h2><a href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></h2>
+    <h2 class="city-list"><a href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></h2>
   {% endif %}
 {% endfor %}
