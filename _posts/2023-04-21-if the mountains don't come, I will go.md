@@ -2,6 +2,7 @@
 title: "If the mountain doesn't come through, I'll go through: A positive attitude towards life in response to challenges"
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 ## Question

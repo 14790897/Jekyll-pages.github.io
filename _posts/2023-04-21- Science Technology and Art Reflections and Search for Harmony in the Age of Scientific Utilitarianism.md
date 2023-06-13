@@ -2,6 +2,7 @@
 title: "Science, Technology and Art: Reflections and Search for Harmony in the Age of Scientific Utilitarianism"
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 ## Question

@@ -2,6 +2,7 @@
 title: The Fascination of Prediction and the Uncertainty of Life
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 # Topic

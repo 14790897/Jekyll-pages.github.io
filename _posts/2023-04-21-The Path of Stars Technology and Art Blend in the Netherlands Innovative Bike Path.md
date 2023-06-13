@@ -2,6 +2,7 @@
 title: The Path of Stars Technology and Art Blend in the Netherlands' Innovative Bike Path
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 ## Question

@@ -2,6 +2,7 @@
 title: Valuing the inner glimmer and discovering potential talents
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 # Topic

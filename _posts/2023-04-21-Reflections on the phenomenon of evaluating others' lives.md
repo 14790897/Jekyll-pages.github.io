@@ -2,6 +2,7 @@
 title: Reflections on the phenomenon of evaluating others' lives
 date: 2023-04-21
 categories: Essay
+tags: 上海
 ---
 
 # Topic
