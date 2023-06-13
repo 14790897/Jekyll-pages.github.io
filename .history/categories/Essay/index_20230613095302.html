@@ -1,0 +1,19 @@
+---
+layout: archive-taxonomies
+title: "城市分类"
+---
+
+{% assign cities = "北京,上海,广州,深圳" | split: "," %}
+
+{% for tag in site.tags %}
+  {% if cities contains tag[0] %}
+    <h2>{{ tag[0] }}</h2>
+    <ul>
+      {% for post in tag[1] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
