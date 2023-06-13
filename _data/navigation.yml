@@ -5,7 +5,7 @@ main:
   - title: "生活"
     url: /categories/lifestyle
   - title: "gpt4写高中作文"
-    url: /categories/Essay/city-list.html
+    url: /categories/Essay/city-list
   - title: "最新科技"
     url: https://www.liuweiqing.top
   #- title: "Quick-Start Guide"
