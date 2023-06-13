@@ -1,7 +1,6 @@
 import os
 import glob
 import re
-import yaml
 
 # 城市列表
 cities = [

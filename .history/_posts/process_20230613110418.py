@@ -1,7 +1,6 @@
 import os
 import glob
 import re
-import yaml
 
 # 城市列表
 cities = [
@@ -38,6 +37,7 @@ cities = [
     "全国高职单招",]
 
 
+import yaml
 
 # 定义函数，检查文件内容并添加城市标签
 def process_file(filename):
