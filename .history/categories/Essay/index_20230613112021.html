@@ -1,0 +1,56 @@
+---
+layout: archive-taxonomies
+title: "城市分类"
+---
+
+{% assign cities = [
+    "北京",
+    "天津",
+    "上海",
+    "重庆",
+    "河北",
+    "山西",
+    "辽宁",
+    "吉林",
+    "黑龙江",
+    "江苏",
+    "浙江",
+    "安徽",
+    "福建",
+    "江西",
+    "山东",
+    "河南",
+    "湖北",
+    "湖南",
+    "广东",
+    "海南",
+    "四川",
+    "贵州",
+    "云南",
+    "陕西",
+    "甘肃",
+    "青海",
+    "台湾",
+    "全国甲",
+    "全国乙",
+    "全国新高考",
+    "全国高职单招",]
+ | split: "," %}
+
+{% for tag in site.tags %}
+  {% if cities contains tag[0] %}
+    <h2>{{ tag[0] }}</h2>
+    <ul>
+      {% for post in tag[1] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+{% for category in site.categories %}
+  {% if cities contains category[0] %}
+    <h2><a href="/categories/{{ category[0] }}">{{ category[0] }} ({{ category[1].size }})</a></h2>
+  {% endif %}
+{% endfor %}
