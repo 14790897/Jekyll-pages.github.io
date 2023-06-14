@@ -40,37 +40,37 @@ title: "作文-城市/年份分类"
     color: #0056b3;  /* 鼠标悬停时的颜色 */
   }
 
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  /* 添加这一行以使年份标签垂直居中 */
+  height: 60px;  /* 添加这一行以设置 .timeline 的高度，使得 .timeline::after 元素有足够的空间显示 */
 }
 
 .timeline::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: black;
-    top: 15px;
-    left: 0;
+  content: "";
+  position: absolute;
+  top: 50%;  /* 更改这一行使得线在 .timeline 元素中垂直居中 */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
 }
 
 .year {
-    position: relative;
-    bottom: 0;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 2px solid black;
-    background: white;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 0 20px;
+  position: relative;  /* 更改这一行以使 .year 元素位于 .timeline::after 元素之上 */
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;  /* 添加这一行使得 .year 元素的背景颜色为白色，这样线就会看起来像是在穿过圆圈 */
 }
+
 
 .year span {
     display: none;
