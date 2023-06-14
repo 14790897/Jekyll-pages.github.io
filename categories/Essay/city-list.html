@@ -1,24 +1,36 @@
----
-layout: single
-title: "作文-城市/年份分类"
----
+<!-- 引入 Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<div class="container">
+  <div class="row">
+    <!-- 城市列表 -->
+    <div class="col-sm">
+      <h2>城市</h2>
+      {% for tag in site.tags %}
+        {% if site.cities contains tag[0] %}
+          <p><a class="city-list" href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- 年份列表 -->
+    <div class="col-sm">
+      <h2>年份</h2>
+      {% for tag in site.tags %}
+        {% if site.years contains tag[0] %}
+          <p><a class="year-list" href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 <style>
-  .city-list, .year-list{
-    display: inline-block; /* 让h2标签以行内块的方式显示 */
-    margin-right: 10px;   /* 每个h2标签的右边距 */
-    font-size: 1em;       /* 设置字体大小 */
+  .city-list, .year-list {
+    color: #007bff;  /* 链接颜色 */
+    text-decoration: none;  /* 去除下划线 */
+  }
+  .city-list:hover, .year-list:hover {
+    color: #0056b3;  /* 鼠标悬停时的颜色 */
   }
 </style>
-
-{% for tag in site.tags %}
-  {% if site.cities contains tag[0] %}
-    <h2 class="city-list"><a href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></h2>
-  {% endif %}
-{% endfor %}
-
-{% for tag in site.tags %}
-  {% if site.years contains tag[0] %}
-    <h2 class="year-list"><a href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></h2>
-  {% endif %}
-{% endfor %}
