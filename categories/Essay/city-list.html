@@ -9,22 +9,22 @@ title: "作文-城市/年份分类"
 <div class="container">
   <div class="row">
     <!-- 城市列表 -->
-    <div class="col-sm">
+    <div class="col-12">
       <h2>城市</h2>
       {% for tag in site.tags %}
         {% if site.cities contains tag[0] %}
-          <p><a class="city-list" href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></p>
+          <p class="d-inline-block mr-2"><a class="city-list" href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></p>
         {% endif %}
       {% endfor %}
     </div>
-
+  </div>
+  <div class="row">
     <!-- 年份列表 -->
-    <div class="col-sm">
-      <h2>年份</h2>
-      {% for tag in site.tags %}
-        {% if site.years contains tag[0] %}
-          <p><a class="year-list" href="/tags/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></p>
-        {% endif %}
+    <div class="timeline">
+      {% for year in (2000..2023) %}
+        <div class="year" data-year="{{ year }}">
+          <span>{{ year }}</span>
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -38,4 +38,49 @@ title: "作文-城市/年份分类"
   .city-list:hover, .year-list:hover {
     color: #0056b3;  /* 鼠标悬停时的颜色 */
   }
+  .timeline {
+  display: flex;
+  justify-content: space-around;
+}
+
+.year {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.year span {
+  display: none;
+  position: absolute;
+  top: -20px;
+  left: -15px;
+  width: 60px;
+  line-height: 20px;
+  text-align: center;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 </style>
+<script>
+  $(".year").hover(
+  function() {
+    $(this).find("span").show();
+  },
+  function() {
+    $(this).find("span").hide();
+  }
+);
+
+$(".year").click(function() {
+  var year = $(this).data("year");
+  window.location.href = "/tags/" + year;
+});
+
+</script>
