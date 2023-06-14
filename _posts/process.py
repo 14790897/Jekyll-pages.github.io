@@ -83,7 +83,7 @@ def process_file(filename):
     if city_found:
         tags.add(city_found)
     if year_found:
-        tags.add(year_found)
+        tags.add(f'"{year_found}"')
     # print('tags', tags)
     print('city_found', city_found)
     if tags:
