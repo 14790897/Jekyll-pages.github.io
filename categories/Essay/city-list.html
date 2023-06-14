@@ -39,33 +39,51 @@ title: "作文-城市/年份分类"
   .city-list:hover, .year-list:hover {
     color: #0056b3;  /* 鼠标悬停时的颜色 */
   }
+
   .timeline {
-  display: flex;
-  justify-content: space-around;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: black;
+    top: 15px;
+    left: 0;
 }
 
 .year {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 50%;
-  cursor: pointer;
+    position: relative;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid black;
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 20px;
 }
 
 .year span {
-  display: none;
-  position: absolute;
-  top: -20px;
-  left: -15px;
-  width: 60px;
-  line-height: 20px;
-  text-align: center;
-  background: white;
-  border: 1px solid black;
-  border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 </style>
