@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Boosting Mental Health: The Power of Positive Thinking
-
 Title: Boosting Mental Health: The Power of Positive Thinking
 
 Introduction

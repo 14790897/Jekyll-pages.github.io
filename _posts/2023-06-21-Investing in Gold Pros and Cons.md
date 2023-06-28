@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Investing in Gold: Pros and Cons
-
 Title: Investing in Gold: Pros and Cons
 
 **1. Introduction**

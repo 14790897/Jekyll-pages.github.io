@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Why Physical Exercise is the Key to a Healthy Mind
-
 **Title: Why Physical Exercise is the Key to a Healthy Mind**
 
 In the quest for a healthy mind, many of us focus primarily on mental exercises and strategies, such as mindfulness, meditation, or cognitive therapy. While these mental exercises are indeed beneficial, we often underestimate the potent impact of physical exercise on our mental health. Accumulating research evidence highlights the profound interconnection between the body and the mind, revealing that physical exercise is not just a strategy for a healthy body, but indeed a key to a healthy mind.

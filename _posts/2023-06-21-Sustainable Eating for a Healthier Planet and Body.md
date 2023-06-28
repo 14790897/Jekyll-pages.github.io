@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Sustainable Eating for a Healthier Planet and Body
-
 Title: Sustainable Eating for a Healthier Planet and Body
 
 Introduction

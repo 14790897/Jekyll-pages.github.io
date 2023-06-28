@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:How to Request a Pay Raise: Proven Techniques and Timing
-
 Title: How to Request a Pay Raise: Proven Techniques and Timing
 
 Introduction

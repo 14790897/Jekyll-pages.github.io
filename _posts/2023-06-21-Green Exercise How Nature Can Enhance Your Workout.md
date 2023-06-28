@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Green Exercise: How Nature Can Enhance Your Workout
-
 Title: Green Exercise: How Nature Can Enhance Your Workout
 
 For many people, the thought of exercise conjures up images of indoor gyms, packed with people and equipment. However, there is a growing body of evidence that suggests stepping outside the conventional exercise box, quite literally, can have a multitude of benefits. Known as "green exercise," working out in natural environments is a trend that’s sweeping the fitness world, and for good reason.

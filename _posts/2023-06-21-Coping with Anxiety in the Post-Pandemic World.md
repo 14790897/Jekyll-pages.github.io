@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Coping with Anxiety in the Post-Pandemic World
-
 Title: Coping with Anxiety in the Post-Pandemic World
 
 Introduction

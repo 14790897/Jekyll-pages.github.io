@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Mental Health 101: Identifying Signs and Seeking Help
-
 **Mental Health 101: Identifying Signs and Seeking Help**
 
 In an age where physical health is often emphasized, it’s crucial that we don’t ignore the importance of our mental well-being. Just as physical ailments require attention and treatment, so do mental health issues. In this article, we aim to help you understand the basic signs of potential mental health issues and the steps to seek help.

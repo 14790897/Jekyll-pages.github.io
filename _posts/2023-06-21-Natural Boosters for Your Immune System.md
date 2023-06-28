@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Natural Boosters for Your Immune System
-
 **Title: Natural Boosters for Your Immune System**
 
 **Introduction**

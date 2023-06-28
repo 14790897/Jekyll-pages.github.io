@@ -4,8 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Please write an article of no less than 1,000 words according to the title:Is Personalized Nutrition the Future of Health and Wellness?
-
 Title: Is Personalized Nutrition the Future of Health and Wellness?
 
 Introduction
