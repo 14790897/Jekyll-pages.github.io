@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Navigating a Mid-Career Crisis: Practical Advice
 
 Introduction
 

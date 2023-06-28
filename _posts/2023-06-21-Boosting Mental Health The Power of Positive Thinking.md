@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Boosting Mental Health: The Power of Positive Thinking
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Why Mental Health Should Be Part of the School Curriculum
 
 **Introduction**
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: The Role of Exercise in Managing Chronic Diseases
 
 Exercise has been universally recognized as a potent tool in the prevention and management of chronic diseases. Regular physical activity benefits the body in numerous ways, from enhancing cardiovascular health to improving mental well-being. This article aims to shed light on the role of exercise in managing some of the most common chronic diseases, including heart disease, diabetes, and obesity.
 

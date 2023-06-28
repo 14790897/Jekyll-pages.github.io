@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Top Financial Mistakes to Avoid in Your 20s
 
 **1. Introduction**
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: The Art of Effective Communication in the Workplace
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Coping with Anxiety in the Post-Pandemic World
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: The Health Impacts of Air Pollution: What You Need to Know
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Freelance vs Full-Time: Which is Right for You?
 
 Introduction
 

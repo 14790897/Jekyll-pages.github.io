@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Understanding the Mental Health Benefits of Art Therapy
 
 Introduction
 

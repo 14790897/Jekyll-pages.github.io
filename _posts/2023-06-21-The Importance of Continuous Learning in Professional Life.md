@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: The Importance of Continuous Learning in Professional Life
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Decoding the Basics of Mutual Funds
 
 **1. Introduction**
 

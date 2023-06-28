@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Cracking the Code of Online Job Applications
 
 Introduction
 

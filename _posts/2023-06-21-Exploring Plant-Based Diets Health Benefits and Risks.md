@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Exploring Plant-Based Diets: Health Benefits and Risks
 
 In a world where health and wellness have become prominent focal points, the move towards plant-based diets is rapidly increasing. People are becoming more conscious of what they consume and the impact it has on their health and the environment.
 

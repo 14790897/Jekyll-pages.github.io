@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: The Psychological Benefits of Having a Pet
 
 Introduction
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Investing in Gold: Pros and Cons
 
 **1. Introduction**
 

@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Healthy Habits: Small Changes with Big Health Benefits
 
 Introduction
 

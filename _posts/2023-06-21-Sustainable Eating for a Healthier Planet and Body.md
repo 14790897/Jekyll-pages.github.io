@@ -4,7 +4,6 @@ date: 2023-06-21
 categories: lifestyle
 ---
 
-Title: Sustainable Eating for a Healthier Planet and Body
 
 Introduction
 
