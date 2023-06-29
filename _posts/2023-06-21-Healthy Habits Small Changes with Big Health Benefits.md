@@ -3,8 +3,6 @@ title: Healthy Habits: Small Changes with Big Health Benefits
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Health is a state of complete physical, mental, and social wellbeing. It's not just the absence of disease or infirmity, but a balanced harmony of mind, body, and spirit. Achieving and maintaining good health doesn't always require a complete lifestyle overhaul. Sometimes, small changes can have big impacts. This article aims to outline a few small, manageable adjustments you can make to your daily habits that can lead to significant health benefits over time.

@@ -3,8 +3,6 @@ title: Exploring the Connection Between Mental Health and Creativity
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 The relationship between mental health and creativity is a fascinating area of exploration. Throughout history, several iconic artists, writers, and musicians have been associated with various mental health conditions, stirring discussions about the potential connection between creative genius and mental health disorders. This article aims to explore this intriguing correlation, the scientific evidence supporting it, and the implications it has on our understanding of both creativity and mental health.

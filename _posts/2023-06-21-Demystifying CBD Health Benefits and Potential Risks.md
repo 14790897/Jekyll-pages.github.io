@@ -3,8 +3,6 @@ title: Demystifying CBD: Health Benefits and Potential Risks
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 The landscape of healthcare and wellness has seen a paradigm shift with the emergence of cannabidiol, popularly known as CBD. Derived from the cannabis plant, CBD has gained substantial attention for its potential therapeutic properties and its legalization in many parts of the world. However, despite its rising popularity, CBD remains a subject of ongoing debate, primarily due to its association with marijuana and a lack of comprehensive research on its long-term effects. This article aims to demystify CBD, exploring its health benefits, potential risks, and the importance of informed usage.

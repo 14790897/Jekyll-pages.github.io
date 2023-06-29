@@ -3,7 +3,6 @@ title: Fitness Tech: How Wearables are Changing the Way We Exercise
 date: 2023-06-21
 categories: lifestyle
 ---
-
 # Fitness Tech: How Wearables are Changing the Way We Exercise
 
 ## Introduction

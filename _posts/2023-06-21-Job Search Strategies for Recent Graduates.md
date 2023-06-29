@@ -3,8 +3,6 @@ title: Job Search Strategies for Recent Graduates
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Graduating from college or university is an exciting milestone. However, it also signifies the beginning of a new challenge: the job hunt. Entering the job market as a recent graduate can seem daunting, but with the right strategies, you can navigate this process successfully. This article provides practical job search strategies to help recent graduates land their first job.

@@ -3,8 +3,6 @@ title: Exploring Plant-Based Diets: Health Benefits and Risks
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 In a world where health and wellness have become prominent focal points, the move towards plant-based diets is rapidly increasing. People are becoming more conscious of what they consume and the impact it has on their health and the environment.
 
 A plant-based diet emphasizes foods derived from plant sources, including fruits, vegetables, grains, nuts, seeds, and legumes. Some people following a plant-based diet also consume dairy and eggs, while others completely avoid animal products, akin to a vegan diet. But what are the health benefits and potential risks associated with this dietary trend? Let's explore.

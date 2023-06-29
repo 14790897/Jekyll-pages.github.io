@@ -3,8 +3,6 @@ title: Surviving Office Politics: A Practical Guide
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Whether you like it or not, office politics are an inevitable part of professional life. Navigating through this intricacy can be a daunting task, particularly when it feels like it stands between you and your professional growth. However, by learning to effectively deal with office politics, you can create a positive work environment and drive your career forward. This article serves as a practical guide for surviving and thriving amidst office politics.

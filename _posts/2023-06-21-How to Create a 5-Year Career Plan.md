@@ -3,8 +3,6 @@ title: How to Create a 5-Year Career Plan
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 A 5-year career plan is a powerful tool to guide your professional journey. It outlines your career goals and the steps needed to achieve them over a span of five years. Creating a 5-year career plan requires introspection, research, and strategic thinking. This article will guide you through the process to help you create a well-rounded and achievable career plan.

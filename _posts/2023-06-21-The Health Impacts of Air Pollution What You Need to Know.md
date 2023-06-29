@@ -3,8 +3,6 @@ title: The Health Impacts of Air Pollution: What You Need to Know
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Air pollution is one of the most significant environmental health risks that people face globally. It is an insidious threat, often invisible yet pervasive, with far-reaching impacts on human health. This article delves into the health impacts of air pollution and provides crucial insights for mitigating its effects.

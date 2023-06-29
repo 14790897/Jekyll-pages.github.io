@@ -3,8 +3,6 @@ title: How to Cope with Job Rejection and Bounce Back
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Facing rejection after a job application or an interview can be a tough experience. It can provoke feelings of disappointment, doubt, and frustration. However, it's important to remember that rejection is an inevitable part of the job search process. This article explores strategies on how to cope with job rejection and bounce back stronger.

@@ -3,8 +3,6 @@ title: Sustainable Eating for a Healthier Planet and Body
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 With rising concerns about climate change, deforestation, water scarcity, and biodiversity loss, it has become increasingly clear that our current food system is not sustainable. The ways we produce, distribute, consume, and waste food are significantly contributing to these environmental crises, while also affecting our health. As a result, there is a growing interest in sustainable eating – a way of choosing foods that are not only healthy for our bodies but also have a low environmental impact. This article will explore what sustainable eating entails, its benefits for both the planet and our health, and how you can adopt this lifestyle.

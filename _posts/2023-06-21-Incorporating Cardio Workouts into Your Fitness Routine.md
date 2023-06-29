@@ -3,8 +3,6 @@ title: Incorporating Cardio Workouts into Your Fitness Routine
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 A well-rounded fitness routine is one that combines various elements of physical exercise, including strength training, flexibility exercises, and cardiovascular workouts. Cardio workouts, often referred to simply as 'cardio,' are exercises that increase your heart rate, helping to boost your heart health, aid in weight loss, and improve overall fitness levels. Incorporating cardio workouts into your fitness routine can seem challenging, especially when starting out, but with the right approach, it can be an enjoyable and beneficial part of your fitness journey.

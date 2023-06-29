@@ -3,8 +3,6 @@ title: Creating Healthy Boundaries in the Workplace
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Maintaining healthy boundaries in the workplace is essential for promoting a positive work environment and ensuring personal well-being. Defining boundaries can help to balance work-life demands, protect personal space, and foster healthier relationships with colleagues. This article provides practical steps to create and sustain healthy boundaries at work.

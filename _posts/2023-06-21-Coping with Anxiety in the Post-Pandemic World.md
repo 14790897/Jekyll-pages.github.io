@@ -3,8 +3,6 @@ title: Coping with Anxiety in the Post-Pandemic World
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 The COVID-19 pandemic has brought unprecedented change and uncertainty, leading to a significant increase in anxiety for many people worldwide. As societies transition into the post-pandemic phase, anxiety persists, fueled by concerns about health, economic instability, and adapting to the "new normal." This article aims to provide useful strategies for managing anxiety in the post-pandemic world.

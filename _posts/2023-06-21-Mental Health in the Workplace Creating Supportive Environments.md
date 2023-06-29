@@ -3,8 +3,6 @@ title: Mental Health in the Workplace: Creating Supportive Environments
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 In the modern world, work forms a significant part of our lives. It is not only a means of livelihood, but it also influences our identity, self-esteem, and social connections. However, the workplace can sometimes be a source of stress and anxiety, adversely affecting our mental health. As mental health issues continue to rise globally, there is a growing recognition of the importance of creating supportive and inclusive workplace environments. This article will explore the impact of mental health in the workplace, the benefits of promoting mental health support, and strategies to create more mentally healthy workplaces.

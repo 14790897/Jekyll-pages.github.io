@@ -3,8 +3,6 @@ title: Decoding the Basics of Mutual Funds
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 **1. Introduction**
 
 Investment avenues have proliferated over the years, offering opportunities for individuals to grow their wealth. Among these, mutual funds have emerged as a popular choice for both novice and experienced investors. However, understanding mutual funds can be a complex task for beginners. This guide seeks to decode the basics of mutual funds, making them more accessible to the everyday investor.

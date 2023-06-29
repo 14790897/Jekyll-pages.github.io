@@ -3,8 +3,6 @@ title: Staying Motivated During a Job Search: Practical Tips
 date: 2023-06-21
 categories: lifestyle
 ---
-
-
 Introduction
 
 Searching for a job can sometimes feel like a rollercoaster ride, filled with highs of potential opportunities and lows of rejections or non-responses. During these times, staying motivated can be challenging but is crucial to keep the job hunt moving forward. Here are some practical tips to help maintain motivation during a job search.
