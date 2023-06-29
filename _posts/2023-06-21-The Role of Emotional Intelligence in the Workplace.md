@@ -1,6 +1,7 @@
 ---
 title: The Role of Emotional Intelligence in the Workplace
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Emotional intelligence (EI), a term first coined by psychologists Peter Salovey and John Mayer in 1990, and later popularized by Daniel Goleman in 1995, has gained widespread recognition in the corporate world over the past decade. Now, more than ever, employers are looking beyond technical competencies, recognizing the critical role that emotional intelligence plays in the workplace. This article delves into the concept of emotional intelligence and its significant impact on various aspects of organizational performance and employee relations.

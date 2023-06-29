@@ -1,6 +1,7 @@
 ---
 title: Understanding the Role of Company Culture in Job Satisfaction
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 In the complex landscape of the modern workplace, job satisfaction is a critical aspect that impacts not only individual performance but also the overall success of the organization. While factors such as salary, job security, and career advancement opportunities undeniably play a significant role, company culture has emerged as a key element influencing job satisfaction. This article explores the role of company culture in job satisfaction.

@@ -1,6 +1,7 @@
 ---
 title: Sleep and Health: The Hidden Connection We Often Ignore
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 **Sleep and Health: The Hidden Connection We Often Ignore**

@@ -1,6 +1,7 @@
 ---
 title: Sustainable Investing: What You Need to Know
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Sustainable investing is an approach that considers environmental, social, and governance (ESG) factors alongside financial factors in the investment decision-making process. It aims not only to generate financial returns but also to create positive societal impact. As global awareness of sustainability issues grows, so too does interest in sustainable investing. This article aims to provide an in-depth understanding of sustainable investing and what you need to know to get started.

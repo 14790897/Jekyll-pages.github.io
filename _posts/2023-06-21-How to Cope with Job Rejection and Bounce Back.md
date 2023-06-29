@@ -1,6 +1,7 @@
 ---
 title: How to Cope with Job Rejection and Bounce Back
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Introduction

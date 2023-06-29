@@ -1,6 +1,7 @@
 ---
 title: The Importance of Having an Emergency Fund
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 When it comes to personal finance, one of the most commonly suggested practices is establishing an emergency fund. An emergency fund is a cash reserve designed to cover unexpected expenses or financial crises, such as a sudden job loss, illness, or significant home or car repairs. It acts as a financial safety net and brings peace of mind. This article explores the importance of having an emergency fund and provides practical tips for building one.

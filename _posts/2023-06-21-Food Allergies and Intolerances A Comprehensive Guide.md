@@ -1,6 +1,7 @@
 ---
 title: Food Allergies and Intolerances: A Comprehensive Guide
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 **

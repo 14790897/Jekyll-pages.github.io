@@ -1,6 +1,7 @@
 ---
 title: The Future of Work: Key Trends to Watch
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 As we navigate through the 21st century, the landscape of work is evolving at a breakneck speed. Powered by rapid advancements in technology, shifting societal values, and unpredictable global events, these changes are transforming the way we work, where we work, and the skills we need to work. This article will examine key trends that are shaping the future of work and what they mean for organizations and employees alike.

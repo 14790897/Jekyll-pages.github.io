@@ -1,6 +1,7 @@
 ---
 title: How to Make Your Money Work for You: An Introduction to Passive Income
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 In the world of personal finance, the concept of making your money work for you is a powerful principle. One of the most effective ways to achieve this is through passive income. This guide will offer an introduction to passive income, provide examples of how it works, and suggest practical steps to start generating passive income today.

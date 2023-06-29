@@ -1,6 +1,7 @@
 ---
 title: Understanding Tax Deductions: An Easy Guide
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Navigating the world of taxes can be a complex task, but a basic understanding of key concepts, such as tax deductions, can significantly ease this process. This article offers a simple guide to understanding tax deductions and how to use them to minimize your tax liabilities.

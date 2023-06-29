@@ -1,6 +1,7 @@
 ---
 title: Career Growth in the Tech Industry: A Comprehensive Guide
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 The tech industry is a dynamic and fast-paced sector, offering ample opportunities for career growth. With the advent of emerging technologies like artificial intelligence, machine learning, and data science, there is a surge in demand for skilled tech professionals. This article provides a comprehensive guide for career growth in the tech industry.

@@ -1,6 +1,7 @@
 ---
 title: Understanding the Gut-Brain Connection: How Your Diet Impacts Your Mood
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 **Understanding the Gut-Brain Connection: How Your Diet Impacts Your Mood**

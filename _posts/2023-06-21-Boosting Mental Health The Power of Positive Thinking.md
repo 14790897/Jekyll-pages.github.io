@@ -1,6 +1,7 @@
 ---
 title: Boosting Mental Health: The Power of Positive Thinking
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Introduction

@@ -1,6 +1,7 @@
 ---
 title: Why Physical Exercise is the Key to a Healthy Mind
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 **

@@ -1,6 +1,7 @@
 ---
 title: Steps to Becoming a More Confident Public Speaker
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 Public speaking is an art that requires skill, practice, and confidence. Whether you are presenting a business proposal, delivering a speech, or participating in a panel discussion, public speaking is a vital skill that can significantly influence your personal and professional life. However, public speaking can be daunting for many. This article outlines key steps that can help you become a more confident public speaker.

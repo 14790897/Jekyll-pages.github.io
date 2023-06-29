@@ -1,6 +1,7 @@
 ---
 title: Demystifying the Stock Market: A Guide for Beginners
 date: 2023-06-21
+layout: single
 categories: lifestyle
 ---
 The stock market, often depicted as a complex and intimidating entity, plays a vital role in the global economy. It's a place where shares of publicly traded companies are bought, sold, and issued. For many, it represents an opportunity for wealth creation, but for beginners, it can seem like a labyrinth of numbers and jargon. This article aims to demystify the stock market, providing a foundational understanding for those eager to start their investment journey.
