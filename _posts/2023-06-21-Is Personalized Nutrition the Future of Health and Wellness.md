@@ -1,7 +1,6 @@
 ---
 title: Is Personalized Nutrition the Future of Health and Wellness?
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

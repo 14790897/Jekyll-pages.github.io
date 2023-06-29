@@ -1,7 +1,6 @@
 ---
 title: The Importance of Digital Literacy in the Modern Workplace
 date: 2023-06-21
-categories: lifestyle
 ---
 In our progressively digitized world, digital literacy is no longer a luxury but a necessity, particularly in the modern workplace. It has evolved beyond a desirable attribute into an indispensable requirement, integral to the success of organizations and individual career growth alike. This article explores the relevance of digital literacy in today's corporate landscape and how it impacts all aspects of a business.
 

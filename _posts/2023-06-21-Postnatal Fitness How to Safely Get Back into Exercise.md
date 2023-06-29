@@ -1,7 +1,6 @@
 ---
 title: Postnatal Fitness: How to Safely Get Back into Exercise
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

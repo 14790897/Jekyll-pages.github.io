@@ -1,7 +1,6 @@
 ---
 title: Demystifying CBD: Health Benefits and Potential Risks
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

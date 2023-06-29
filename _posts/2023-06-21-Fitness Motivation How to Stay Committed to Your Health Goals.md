@@ -1,7 +1,6 @@
 ---
 title: Fitness Motivation: How to Stay Committed to Your Health Goals
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

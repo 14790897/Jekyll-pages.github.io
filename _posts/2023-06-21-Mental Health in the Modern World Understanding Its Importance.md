@@ -1,7 +1,6 @@
 ---
 title: Mental Health in the Modern World: Understanding Its Importance
 date: 2023-06-21
-categories: lifestyle
 ---
 Mental Health in the Modern World: Understanding Its Importance
 

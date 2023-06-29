@@ -1,7 +1,6 @@
 ---
 title: Negotiating Your Job Offer: A Step-by-Step Guide
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

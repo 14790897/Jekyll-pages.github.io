@@ -1,7 +1,6 @@
 ---
 title: Exploring the Benefits of Yoga for Mental Well-being
 date: 2023-06-21
-categories: lifestyle
 ---
 In the fast-paced modern world, stress and anxiety have become prevalent issues, affecting millions of individuals worldwide. As mental health becomes a vital conversation, ancient practices like Yoga have gained significant attention. With roots dating back to over 5000 years in the Indian subcontinent, Yoga isn't just an exercise form; it's a comprehensive mind-body practice that fosters mental well-being and balance.
 

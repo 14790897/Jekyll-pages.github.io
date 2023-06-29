@@ -1,7 +1,6 @@
 ---
 title: Avoiding Common Investment Pitfalls
 date: 2023-06-21
-categories: lifestyle
 ---
 Investing is an integral part of building wealth and securing a financial future. However, the investment landscape can often be tricky to navigate, with various pitfalls that can undermine even the most well-planned strategies. This article aims to shed light on these common investment pitfalls and provide tips to avoid them.
 

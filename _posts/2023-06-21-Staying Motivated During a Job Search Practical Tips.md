@@ -1,7 +1,6 @@
 ---
 title: Staying Motivated During a Job Search: Practical Tips
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

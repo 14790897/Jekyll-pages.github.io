@@ -1,7 +1,6 @@
 ---
 title: Exploring the World of Real Estate Investments
 date: 2023-06-21
-categories: lifestyle
 ---
 Real estate investments represent a critical component of a comprehensive financial portfolio. They offer potential for significant returns, increased diversification, and a hedge against inflation. This article will provide an overview of real estate investing, covering various types of investments, benefits and drawbacks, and considerations for new investors.
 

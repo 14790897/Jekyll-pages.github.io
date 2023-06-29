@@ -1,7 +1,6 @@
 ---
 title: The Role of Mentors in Career Development
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

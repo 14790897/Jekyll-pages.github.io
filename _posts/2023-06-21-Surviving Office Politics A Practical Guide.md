@@ -1,7 +1,6 @@
 ---
 title: Surviving Office Politics: A Practical Guide
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

@@ -1,7 +1,6 @@
 ---
 title: Creating Healthy Boundaries in the Workplace
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

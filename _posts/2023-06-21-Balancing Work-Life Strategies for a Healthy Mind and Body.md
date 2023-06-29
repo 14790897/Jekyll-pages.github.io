@@ -1,7 +1,6 @@
 ---
 title: Balancing Work-Life: Strategies for a Healthy Mind and Body
 date: 2023-06-21
-categories: lifestyle
 ---
 **Balancing Work-Life: Strategies for a Healthy Mind and Body**
 

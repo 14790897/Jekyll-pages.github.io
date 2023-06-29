@@ -1,7 +1,6 @@
 ---
 title: The Beginner’s Guide to Life Insurance
 date: 2023-06-21
-categories: lifestyle
 ---
 **1. Introduction**
 

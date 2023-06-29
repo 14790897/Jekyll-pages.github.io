@@ -1,7 +1,6 @@
 ---
 title: Healthy Habits: Small Changes with Big Health Benefits
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 

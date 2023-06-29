@@ -1,7 +1,6 @@
 ---
 title: How to Incorporate Mindfulness into Your Everyday Routine
 date: 2023-06-21
-categories: lifestyle
 ---
 **How to Incorporate Mindfulness into Your Everyday Routine**
 

@@ -1,7 +1,6 @@
 ---
 title: Effective Strategies for Remote Job Hunting
 date: 2023-06-21
-categories: lifestyle
 ---
 Introduction
 
