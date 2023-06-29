@@ -1,6 +1,7 @@
 ---
 title: Effective Ways to Combat Seasonal Affective Disorder
 date: 2023-06-21
+categories: lifestyle
 ---
 Seasonal Affective Disorder (SAD), sometimes colloquially known as the "winter blues", is a type of depression that occurs at specific times of the year. It is commonly associated with the reduced daylight hours in fall and winter, but it can also manifest during the spring and early summer. This article aims to explore effective ways to combat this disorder, offering a roadmap for those struggling with seasonal mood variations.
 

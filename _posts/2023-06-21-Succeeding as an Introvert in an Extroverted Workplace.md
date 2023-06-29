@@ -1,6 +1,7 @@
 ---
 title: Succeeding as an Introvert in an Extroverted Workplace
 date: 2023-06-21
+categories: lifestyle
 ---
 In an era that praises open-plan offices, brainstorming sessions, and team-building activities, the workplace can sometimes feel like an arena designed for the extroverted. The inclination to favor extroversion in the workplace often puts introverts in a challenging position. However, introverts possess unique skills and attributes that are incredibly valuable in the workplace. This article explores how introverts can succeed and shine in an extroverted workplace.
 

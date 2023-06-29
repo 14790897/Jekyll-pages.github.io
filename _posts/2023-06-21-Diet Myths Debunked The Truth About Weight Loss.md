@@ -1,6 +1,7 @@
 ---
 title: Diet Myths Debunked: The Truth About Weight Loss
 date: 2023-06-21
+categories: lifestyle
 ---
 Introduction
 

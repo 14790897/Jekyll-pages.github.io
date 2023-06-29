@@ -1,6 +1,7 @@
 ---
 title: Developing a Personal Budget: Practical Steps for Success
 date: 2023-06-21
+categories: lifestyle
 ---
 A budget is a financial plan that outlines your income and expenditures over a certain period. It's a tool that helps you manage your money, control spending, and achieve financial goals. Creating a personal budget may seem daunting, but it's simpler than you think. This guide will provide practical steps to develop a successful personal budget.
 

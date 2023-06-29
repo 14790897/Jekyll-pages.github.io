@@ -1,6 +1,7 @@
 ---
 title: Food Allergies and Intolerances: A Comprehensive Guide
 date: 2023-06-21
+categories: lifestyle
 ---
 **
 The food we consume plays a pivotal role in our lives. Not only does it provide us with the necessary nutrients to thrive, but it also brings pleasure and enjoyment. However, for some people, certain types of food can trigger adverse reactions - this is where food allergies and intolerances come into play.

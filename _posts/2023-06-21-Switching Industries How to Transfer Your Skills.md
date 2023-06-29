@@ -1,6 +1,7 @@
 ---
 title: Switching Industries: How to Transfer Your Skills
 date: 2023-06-21
+categories: lifestyle
 ---
 A career switch can be a challenging yet rewarding endeavor. Switching industries can open new opportunities, present novel challenges, and rejuvenate your professional journey. However, it can also raise a critical question - how to transfer your skills to a new industry? This article will explore strategies to effectively transfer your skills when switching industries.
 

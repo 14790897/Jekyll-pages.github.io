@@ -1,6 +1,7 @@
 ---
 title: Mental Health 101: Identifying Signs and Seeking Help
 date: 2023-06-21
+categories: lifestyle
 ---
 **Mental Health 101: Identifying Signs and Seeking Help**
 

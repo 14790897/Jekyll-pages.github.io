@@ -1,6 +1,7 @@
 ---
 title: Decoding the Science of Stress and its Impact on Your Health
 date: 2023-06-21
+categories: lifestyle
 ---
 **
 **Introduction**

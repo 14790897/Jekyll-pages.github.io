@@ -1,6 +1,7 @@
 ---
 title: Breaking Down the Basics of Cryptocurrency
 date: 2023-06-21
+categories: lifestyle
 ---
 Cryptocurrency has undeniably made a significant impact on the world of finance, giving birth to an entirely new sector of digital assets. Despite being relatively young, cryptocurrencies have quickly become a popular investment choice due to their potential for high returns. However, for beginners, the world of cryptocurrency can be intimidating and complex. This guide aims to break down the basics of cryptocurrency, making it accessible to anyone interested in this digital frontier.
 

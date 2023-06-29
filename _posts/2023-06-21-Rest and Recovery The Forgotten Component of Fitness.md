@@ -1,6 +1,7 @@
 ---
 title: Rest and Recovery: The Forgotten Component of Fitness
 date: 2023-06-21
+categories: lifestyle
 ---
 Introduction
 

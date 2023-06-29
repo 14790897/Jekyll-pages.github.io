@@ -1,6 +1,7 @@
 ---
 title: 10 Essential Tips for a Balanced Diet and Better Health
 date: 2023-06-21
+categories: lifestyle
 ---
 Everyone knows that eating a balanced diet is vital for maintaining good health and well-being. It provides your body with the necessary nutrients it needs to function properly. However, with so many dietary trends and advice available, it can be hard to know what "balanced" really means. Here are 10 essential tips to guide you towards a balanced diet and better health.
 

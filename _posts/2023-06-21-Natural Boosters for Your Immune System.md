@@ -1,6 +1,7 @@
 ---
 title: Natural Boosters for Your Immune System
 date: 2023-06-21
+categories: lifestyle
 ---
 **
 **Introduction**

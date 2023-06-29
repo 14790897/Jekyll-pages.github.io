@@ -1,6 +1,7 @@
 ---
 title: Understanding the Physical and Mental Benefits of Meditation
 date: 2023-06-21
+categories: lifestyle
 ---
 **Understanding the Physical and Mental Benefits of Meditation**
 

@@ -1,6 +1,7 @@
 ---
 title: How to Create a 5-Year Career Plan
 date: 2023-06-21
+categories: lifestyle
 ---
 Introduction
 

@@ -1,6 +1,7 @@
 ---
 title: Developing Leadership Skills in Your Current Role
 date: 2023-06-21
+categories: lifestyle
 ---
 Introduction
 
