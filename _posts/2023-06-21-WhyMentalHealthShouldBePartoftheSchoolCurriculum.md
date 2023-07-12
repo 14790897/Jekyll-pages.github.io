@@ -4,6 +4,7 @@ date: 2023-06-21
 layout: single
 categories: lifestyle
 ---
+
 **Introduction**
 
 Mental health, once a taboo subject in society, has gained increasing attention over the years. The recognition of its importance has led to calls for it to be part of school curriculums worldwide, as mental illnesses are not uncommon among children and adolescents. According to the World Health Organization (WHO), around 10-20% of children and adolescents worldwide experience mental disorders, and half of all mental illnesses begin by the age of 14. Despite this, the subject remains largely unaddressed in schools, leaving many young people lacking the resources to navigate mental health challenges. This article explores the importance of incorporating mental health into the school curriculum.

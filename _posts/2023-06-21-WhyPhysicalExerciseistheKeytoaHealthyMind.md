@@ -4,7 +4,7 @@ date: 2023-06-21
 layout: single
 categories: lifestyle
 ---
-**
+
 In the quest for a healthy mind, many of us focus primarily on mental exercises and strategies, such as mindfulness, meditation, or cognitive therapy. While these mental exercises are indeed beneficial, we often underestimate the potent impact of physical exercise on our mental health. Accumulating research evidence highlights the profound interconnection between the body and the mind, revealing that physical exercise is not just a strategy for a healthy body, but indeed a key to a healthy mind.
 
 **Understanding the Body-Mind Connection**
