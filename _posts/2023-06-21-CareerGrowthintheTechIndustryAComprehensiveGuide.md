@@ -1,5 +1,5 @@
 ---
-title: Career Growth in the Tech Industry: A Comprehensive Guide
+title: 'Career Growth in the Tech Industry: A Comprehensive Guide'
 date: 2023-06-21
 layout: single
 categories: lifestyle
