@@ -1,5 +1,5 @@
 ---
-title: Mastering Time Management for Career Success
+title: "Mastering Time Management for Career Success"
 date: 2023-06-21
 layout: single
 categories: lifestyle

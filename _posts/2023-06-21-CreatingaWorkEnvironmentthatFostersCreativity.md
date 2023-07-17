@@ -1,5 +1,5 @@
 ---
-title: Creating a Work Environment that Fosters Creativity
+title: "Creating a Work Environment that Fosters Creativity"
 date: 2023-06-21
 layout: single
 categories: lifestyle

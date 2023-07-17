@@ -1,5 +1,5 @@
 ---
-title: Mental Health 101: Identifying Signs and Seeking Help
+title: "Mental Health 101: Identifying Signs and Seeking Help"
 date: 2023-06-21
 layout: single
 categories: lifestyle

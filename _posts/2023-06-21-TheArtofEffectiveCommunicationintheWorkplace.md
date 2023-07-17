@@ -1,5 +1,5 @@
 ---
-title: The Art of Effective Communication in the Workplace
+title: "The Art of Effective Communication in the Workplace"
 date: 2023-06-21
 layout: single
 categories: lifestyle

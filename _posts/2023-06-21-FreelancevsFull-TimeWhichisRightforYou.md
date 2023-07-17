@@ -1,5 +1,5 @@
 ---
-title: Freelance vs Full-Time: Which is Right for You?
+title: "Freelance vs Full-Time: Which is Right for You?"
 date: 2023-06-21
 layout: single
 categories: lifestyle

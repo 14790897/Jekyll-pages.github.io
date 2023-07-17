@@ -1,5 +1,5 @@
 ---
-title: Effective Ways to Combat Seasonal Affective Disorder
+title: "Effective Ways to Combat Seasonal Affective Disorder"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Adapting to the AI Revolution: Skills for the Future of Work
+title: "Adapting to the AI Revolution: Skills for the Future of Work"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Navigating Your First Home Purchase: What to Expect
+title: "Navigating Your First Home Purchase: What to Expect"
 date: 2023-06-21
 layout: single
 categories: lifestyle

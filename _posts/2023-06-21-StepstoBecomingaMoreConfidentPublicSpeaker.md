@@ -1,5 +1,5 @@
 ---
-title: Steps to Becoming a More Confident Public Speaker
+title: "Steps to Becoming a More Confident Public Speaker"
 date: 2023-06-21
 layout: single
 categories: lifestyle

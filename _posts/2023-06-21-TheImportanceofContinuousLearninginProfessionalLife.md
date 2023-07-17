@@ -1,5 +1,5 @@
 ---
-title: The Importance of Continuous Learning in Professional Life
+title: "The Importance of Continuous Learning in Professional Life"
 date: 2023-06-21
 layout: single
 categories: lifestyle

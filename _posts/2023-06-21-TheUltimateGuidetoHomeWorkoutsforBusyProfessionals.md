@@ -1,5 +1,5 @@
 ---
-title: The Ultimate Guide to Home Workouts for Busy Professionals
+title: "The Ultimate Guide to Home Workouts for Busy Professionals"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Climbing the Corporate Ladder: Tips and Strategies
+title: "Climbing the Corporate Ladder: Tips and Strategies"
 date: 2023-06-21
 layout: single
 categories: lifestyle

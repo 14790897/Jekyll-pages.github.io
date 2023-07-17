@@ -1,5 +1,5 @@
 ---
-title: The Psychological Benefits of Having a Pet
+title: "The Psychological Benefits of Having a Pet"
 date: 2023-06-21
 layout: single
 categories: lifestyle

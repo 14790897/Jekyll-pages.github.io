@@ -1,5 +1,5 @@
 ---
-title: Tips for Teaching Kids About Money Management
+title: "Tips for Teaching Kids About Money Management"
 date: 2023-06-21
 layout: single
 categories: lifestyle

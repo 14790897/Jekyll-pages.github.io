@@ -1,5 +1,5 @@
 ---
-title: Navigating the World of Dietary Supplements: What You Need to Know
+title: "Navigating the World of Dietary Supplements: What You Need to Know"
 date: 2023-06-21
 layout: single
 categories: lifestyle

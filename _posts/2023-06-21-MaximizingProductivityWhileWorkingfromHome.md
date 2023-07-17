@@ -1,5 +1,5 @@
 ---
-title: Maximizing Productivity While Working from Home
+title: "Maximizing Productivity While Working from Home"
 date: 2023-06-21
 layout: single
 categories: lifestyle

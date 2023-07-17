@@ -1,5 +1,5 @@
 ---
-title: How to Make Your Money Work for You: An Introduction to Passive Income
+title: "How to Make Your Money Work for You: An Introduction to Passive Income"
 date: 2023-06-21
 layout: single
 categories: lifestyle

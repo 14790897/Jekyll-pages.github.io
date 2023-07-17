@@ -1,5 +1,5 @@
 ---
-title: Demystifying the Stock Market: A Guide for Beginners
+title: "Demystifying the Stock Market: A Guide for Beginners"
 date: 2023-06-21
 layout: single
 categories: lifestyle

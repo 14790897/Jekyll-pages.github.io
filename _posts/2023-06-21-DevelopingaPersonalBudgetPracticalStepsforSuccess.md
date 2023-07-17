@@ -1,5 +1,5 @@
 ---
-title: Developing a Personal Budget: Practical Steps for Success
+title: "Developing a Personal Budget: Practical Steps for Success"
 date: 2023-06-21
 layout: single
 categories: lifestyle

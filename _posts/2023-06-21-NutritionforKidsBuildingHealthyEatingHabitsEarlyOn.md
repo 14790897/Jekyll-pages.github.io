@@ -1,5 +1,5 @@
 ---
-title: Nutrition for Kids: Building Healthy Eating Habits Early On
+title: "Nutrition for Kids: Building Healthy Eating Habits Early On"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Skills to Thrive in a Post-Pandemic Job Market
+title: "Skills to Thrive in a Post-Pandemic Job Market"
 date: 2023-06-21
 layout: single
 categories: lifestyle

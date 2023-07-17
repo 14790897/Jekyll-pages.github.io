@@ -1,5 +1,5 @@
 ---
-title: Incorporating Cardio Workouts into Your Fitness Routine
+title: "Incorporating Cardio Workouts into Your Fitness Routine"
 date: 2023-06-21
 layout: single
 categories: lifestyle

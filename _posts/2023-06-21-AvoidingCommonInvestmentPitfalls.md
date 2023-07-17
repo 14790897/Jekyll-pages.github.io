@@ -1,5 +1,5 @@
 ---
-title: Avoiding Common Investment Pitfalls
+title: "Avoiding Common Investment Pitfalls"
 date: 2023-06-21
 layout: single
 categories: lifestyle

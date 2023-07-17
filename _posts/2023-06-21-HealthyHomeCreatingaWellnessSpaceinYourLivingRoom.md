@@ -1,5 +1,5 @@
 ---
-title: Healthy Home: Creating a Wellness Space in Your Living Room
+title: "Healthy Home: Creating a Wellness Space in Your Living Room"
 date: 2023-06-21
 layout: single
 categories: lifestyle

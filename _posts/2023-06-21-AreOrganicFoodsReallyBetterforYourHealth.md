@@ -1,5 +1,5 @@
 ---
-title: Are Organic Foods Really Better for Your Health?
+title: "Are Organic Foods Really Better for Your Health?"
 date: 2023-06-21
 layout: single
 categories: lifestyle

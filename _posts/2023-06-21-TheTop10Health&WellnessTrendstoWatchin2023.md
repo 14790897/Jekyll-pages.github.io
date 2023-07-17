@@ -1,5 +1,5 @@
 ---
-title: The Top 10 Health & Wellness Trends to Watch in 2023
+title: "The Top 10 Health & Wellness Trends to Watch in 2023"
 date: 2023-06-21
 layout: single
 categories: lifestyle

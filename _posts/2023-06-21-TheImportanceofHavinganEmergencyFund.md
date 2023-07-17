@@ -1,5 +1,5 @@
 ---
-title: The Importance of Having an Emergency Fund
+title: "The Importance of Having an Emergency Fund"
 date: 2023-06-21
 layout: single
 categories: lifestyle

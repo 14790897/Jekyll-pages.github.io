@@ -1,5 +1,5 @@
 ---
-title: Practical Tips for Managing Stress in High-Pressure Jobs
+title: "Practical Tips for Managing Stress in High-Pressure Jobs"
 date: 2023-06-21
 layout: single
 categories: lifestyle

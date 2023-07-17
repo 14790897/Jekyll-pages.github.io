@@ -1,5 +1,5 @@
 ---
-title: Succeeding as an Introvert in an Extroverted Workplace
+title: "Succeeding as an Introvert in an Extroverted Workplace"
 date: 2023-06-21
 layout: single
 categories: lifestyle

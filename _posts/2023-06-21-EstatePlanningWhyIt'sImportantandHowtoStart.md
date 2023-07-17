@@ -1,5 +1,5 @@
 ---
-title: Estate Planning: Why It's Important and How to Start
+title: "Estate Planning: Why It's Important and How to Start"
 date: 2023-06-21
 layout: single
 categories: lifestyle

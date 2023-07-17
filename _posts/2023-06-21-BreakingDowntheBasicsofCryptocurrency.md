@@ -1,5 +1,5 @@
 ---
-title: Breaking Down the Basics of Cryptocurrency
+title: "Breaking Down the Basics of Cryptocurrency"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Mental Health in the Workplace: Creating Supportive Environments
+title: "Mental Health in the Workplace: Creating Supportive Environments"
 date: 2023-06-21
 layout: single
 categories: lifestyle

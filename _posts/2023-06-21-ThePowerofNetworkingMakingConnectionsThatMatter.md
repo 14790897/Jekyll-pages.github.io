@@ -1,5 +1,5 @@
 ---
-title: The Power of Networking: Making Connections That Matter
+title: "The Power of Networking: Making Connections That Matter"
 date: 2023-06-21
 layout: single
 categories: lifestyle

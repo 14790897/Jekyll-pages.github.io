@@ -1,5 +1,5 @@
 ---
-title: Understanding the Mental Health Benefits of Art Therapy
+title: "Understanding the Mental Health Benefits of Art Therapy"
 date: 2023-06-21
 layout: single
 categories: lifestyle

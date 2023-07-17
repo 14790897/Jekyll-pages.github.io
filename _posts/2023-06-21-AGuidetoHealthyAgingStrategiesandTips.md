@@ -1,5 +1,5 @@
 ---
-title: A Guide to Healthy Aging: Strategies and Tips
+title: "A Guide to Healthy Aging: Strategies and Tips"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: Eating for Longevity: Lessons from the World's Healthiest People
+title: "Eating for Longevity: Lessons from the World's Healthiest People"
 date: 2023-06-21
 layout: single
 categories: lifestyle

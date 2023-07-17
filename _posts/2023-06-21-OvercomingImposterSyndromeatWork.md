@@ -1,5 +1,5 @@
 ---
-title: Overcoming Imposter Syndrome at Work
+title: "Overcoming Imposter Syndrome at Work"
 date: 2023-06-21
 layout: single
 categories: lifestyle

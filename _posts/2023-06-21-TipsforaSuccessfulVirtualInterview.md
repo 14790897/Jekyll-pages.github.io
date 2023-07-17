@@ -1,5 +1,5 @@
 ---
-title: Tips for a Successful Virtual Interview
+title: "Tips for a Successful Virtual Interview"
 date: 2023-06-21
 layout: single
 categories: lifestyle

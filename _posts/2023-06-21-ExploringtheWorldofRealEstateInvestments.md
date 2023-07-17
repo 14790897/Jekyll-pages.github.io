@@ -1,5 +1,5 @@
 ---
-title: Exploring the World of Real Estate Investments
+title: "Exploring the World of Real Estate Investments"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: How to Minimize Your Tax Liability
+title: "How to Minimize Your Tax Liability"
 date: 2023-06-21
 layout: single
 categories: lifestyle

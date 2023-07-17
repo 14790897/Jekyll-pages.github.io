@@ -1,5 +1,5 @@
 ---
-title: Sustainable Investing: What You Need to Know
+title: "Sustainable Investing: What You Need to Know"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,10 +1,9 @@
 ---
-title: When to Consider a Career Pivot: Recognizing the Signs
+title: "When to Consider a Career Pivot: Recognizing the Signs"
 date: 2023-06-21
 layout: single
 categories: lifestyle
 ---
-
 The concept of a linear career path, where one climbs the ladder within a single profession or industry, has gradually shifted in the modern workplace. With this change, more and more professionals are considering career pivots – substantial changes in their career direction that align more closely with their evolving personal and professional goals, values, and interests. Recognizing when to consider such a pivot can be a daunting task. This article aims to shed light on the signs that might indicate it's time for a career pivot.
 
 Understanding Career Pivots

@@ -1,5 +1,5 @@
 ---
-title: The Importance of Digital Literacy in the Modern Workplace
+title: "The Importance of Digital Literacy in the Modern Workplace"
 date: 2023-06-21
 layout: single
 categories: lifestyle

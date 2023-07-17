@@ -1,5 +1,5 @@
 ---
-title: Combating Loneliness and Isolation for Better Mental Health
+title: "Combating Loneliness and Isolation for Better Mental Health"
 date: 2023-06-21
 layout: single
 categories: lifestyle

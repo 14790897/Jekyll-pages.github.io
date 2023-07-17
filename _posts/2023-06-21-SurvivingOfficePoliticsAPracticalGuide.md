@@ -1,5 +1,5 @@
 ---
-title: Surviving Office Politics: A Practical Guide
+title: "Surviving Office Politics: A Practical Guide"
 date: 2023-06-21
 layout: single
 categories: lifestyle

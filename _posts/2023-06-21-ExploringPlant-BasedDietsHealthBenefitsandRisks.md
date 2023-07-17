@@ -1,5 +1,5 @@
 ---
-title: Exploring Plant-Based Diets: Health Benefits and Risks
+title: "Exploring Plant-Based Diets: Health Benefits and Risks"
 date: 2023-06-21
 layout: single
 categories: lifestyle

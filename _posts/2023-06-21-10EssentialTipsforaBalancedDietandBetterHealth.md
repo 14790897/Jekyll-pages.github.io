@@ -1,5 +1,5 @@
 ---
-title: 10 Essential Tips for a Balanced Diet and Better Health
+title: "10 Essential Tips for a Balanced Diet and Better Health"
 date: 2023-06-21
 layout: single
 categories: lifestyle

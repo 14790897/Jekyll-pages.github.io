@@ -1,5 +1,5 @@
 ---
-title: Sustainable Eating for a Healthier Planet and Body
+title: "Sustainable Eating for a Healthier Planet and Body"
 date: 2023-06-21
 layout: single
 categories: lifestyle

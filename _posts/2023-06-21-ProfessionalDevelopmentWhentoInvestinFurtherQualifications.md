@@ -1,5 +1,5 @@
 ---
-title: Professional Development: When to Invest in Further Qualifications
+title: "Professional Development: When to Invest in Further Qualifications"
 date: 2023-06-21
 layout: single
 categories: lifestyle

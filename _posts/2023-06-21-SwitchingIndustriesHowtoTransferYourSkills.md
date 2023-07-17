@@ -1,5 +1,5 @@
 ---
-title: Switching Industries: How to Transfer Your Skills
+title: "Switching Industries: How to Transfer Your Skills"
 date: 2023-06-21
 layout: single
 categories: lifestyle

@@ -1,5 +1,5 @@
 ---
-title: The Future of Work: Key Trends to Watch
+title: "The Future of Work: Key Trends to Watch"
 date: 2023-06-21
 layout: single
 categories: lifestyle

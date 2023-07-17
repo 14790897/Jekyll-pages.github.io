@@ -1,5 +1,5 @@
 ---
-title: Exploring the Benefits of Yoga for Mental Well-being
+title: "Exploring the Benefits of Yoga for Mental Well-being"
 date: 2023-06-21
 layout: single
 categories: lifestyle

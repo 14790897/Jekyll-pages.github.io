@@ -1,5 +1,5 @@
 ---
-title: Green Exercise: How Nature Can Enhance Your Workout
+title: "Green Exercise: How Nature Can Enhance Your Workout"
 date: 2023-06-21
 layout: single
 categories: lifestyle

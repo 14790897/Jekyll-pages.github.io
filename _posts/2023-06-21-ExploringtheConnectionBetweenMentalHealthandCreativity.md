@@ -1,5 +1,5 @@
 ---
-title: Exploring the Connection Between Mental Health and Creativity
+title: "Exploring the Connection Between Mental Health and Creativity"
 date: 2023-06-21
 layout: single
 categories: lifestyle

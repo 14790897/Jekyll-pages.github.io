@@ -1,5 +1,5 @@
 ---
-title: The Role of Personal Values in Career Choices
+title: "The Role of Personal Values in Career Choices"
 date: 2023-06-21
 layout: single
 categories: lifestyle

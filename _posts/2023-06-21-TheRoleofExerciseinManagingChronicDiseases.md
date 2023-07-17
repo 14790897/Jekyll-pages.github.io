@@ -1,5 +1,5 @@
 ---
-title: The Role of Exercise in Managing Chronic Diseases
+title: "The Role of Exercise in Managing Chronic Diseases"
 date: 2023-06-21
 layout: single
 categories: lifestyle
