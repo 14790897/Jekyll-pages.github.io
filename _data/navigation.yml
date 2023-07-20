@@ -7,7 +7,7 @@ main:
   - title: "gpt4写高中作文"
     url: /categories/Essay/city-list
   - title: "Search"
-    url: /categories/search/
+    url: /categories/search/search
   # - title: "最新科技"
   #   url: https://www.liuweiqing.top
   #- title: "Quick-Start Guide"
