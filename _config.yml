@@ -133,9 +133,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "Wechat"
-      icon: "fab fa-fw fa-weixin"
-      url: "/assets/images/wechat-qrcode.jpg"
+    # - label: "Wechat"
+    #   icon: "fab fa-fw fa-weixin"
+    #   url: "/assets/images/wechat-qrcode.jpg"
 
 
 # Site Footer
