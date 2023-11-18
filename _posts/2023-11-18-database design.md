@@ -1,6 +1,6 @@
 ---
 title: "database design"
-date: 2023-10-13
+date: 2023-11-18
 layout: single
 categories: lifestyle
 ---
