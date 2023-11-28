@@ -7,7 +7,7 @@ categories: lifestyle
 
 以下是使用 acme.sh 脚本为 `*.liuweiqing.top` 域名申请和安装 Let's Encrypt 泛域名 SSL 证书的步骤。在此示例中，我们将使用 **Cloudflare** 作为 DNS 供应商。
 
-1. 如果您尚未安装 acme.sh，请按照以下命令进行安装：
+1. 如果您尚未安装 acme.sh，请按照以下命令进行安装： 
    ```
    curl https://get.acme.sh | sh
    ```
