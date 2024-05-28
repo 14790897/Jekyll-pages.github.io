@@ -30,10 +30,10 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : false  # true, false (default)
 words_per_minute         : 200
 comments:
-  provider: waline
-  waline:
-    serverURL: comments.paperai.life
-    style: false
+  provider: utterances
+  # waline: #这里写其实是没有任何作用的
+  #   serverURL: comments.paperai.life
+  #   style: false
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
