@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Weiqing Liu"
 description              : "An amazing website."
-url                      : "https://liuweiqing.life"
+url                      : "https://1.paperai.life"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "14790897/Jekyll-pages.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/favicon.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -30,10 +30,10 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : false  # true, false (default)
 words_per_minute         : 200
 comments:
-  provider: waline
-  waline:
-    serverURL: https://comments.liuweiqing.life
-    style: false
+  provider: utterances
+  # waline: #这里写其实是没有任何作用的
+  #   serverURL: comments.paperai.life
+  #   style: false
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
