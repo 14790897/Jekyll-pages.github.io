@@ -13,7 +13,8 @@ related: true
 2. 选择 online， certificate，随便选择一个专业
    ![alt text](/assets/images/liberty/image-1.png)
    ![alt text](/assets/images/liberty/image.png) 3.随便输入字母选一个大学，随便输入毕业日期，全选 no
-3. 填入一个可以接码的电话，以及其它信息
+3. 填入一个可以接码的电话，以及其它信息(可以找我接码，但前提是给我 GitHub 点 5 个 star，越多越好，我手机号：+447709722684
+   )
    ![alt text](/assets/images/liberty/image-2.png)
 4. 生成虚拟的地址，ssn，填入，生成网址：https://fauxid.com/fake-name-generator/united-states
    ![alt text](/assets/images/liberty/image-3.png)
