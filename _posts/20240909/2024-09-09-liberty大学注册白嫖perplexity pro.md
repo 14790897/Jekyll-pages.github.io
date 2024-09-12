@@ -13,8 +13,9 @@ related: true
 2. 选择 online， certificate，随便选择一个专业
    ![alt text](/assets/images/liberty/image-1.png)
    ![alt text](/assets/images/liberty/image.png) 3.随便输入字母选一个大学，随便输入毕业日期，全选 no
-3. 填入一个可以接码的电话，以及其它信息(可以找我接码，但前提是给我 GitHub 点 5 个 star，越多越好，我手机号：+447709722684
-   )
+   2.1 随便输入字母，随便选择一个学校
+   ![alt text](/assets/images/liberty/image-2.1.png)
+3. 填入一个可以接码的电话，以及其它信息(接码平台，免费：https://jiemahao.com/sms)
    ![alt text](/assets/images/liberty/image-2.png)
 4. 生成虚拟的地址，ssn，填入，生成网址：https://fauxid.com/fake-name-generator/united-states
    ![alt text](/assets/images/liberty/image-3.png)
@@ -39,14 +40,13 @@ related: true
 13. 之后会进入 liberty 大学的网站，点击 outlook 进入邮箱，或者也可以直接进入网址：https://outlook.office.com/mail/inbox，邮箱用于apple接码
     ![alt text](/assets/images/liberty/image-14.png)
 14. 注册一个新的 中国区 apple 账号，网址： https://appleid.apple.com/account ，这一步需要关闭代理，使用中国 IP，否则会风控，可以使用相同中国手机号多次注册
-    ![alt text](/assets/images/liberty/image-15.png) 15.使用虚拟地址，将 apple 地区改为美国
+    ![alt text](/assets/images/liberty/image-15.png)
+15. 使用虚拟地址，将 apple 地区改为美国
     ![alt text](/assets/images/liberty/image-16.png)
     ![alt text](/assets/images/liberty/image-17.png)
     ![alt text](/assets/images/liberty/image-18.png)
-15. 使用 apple 登录 perplexity，网址（#aff）: https://pplx.ai?utm_source=backtoschool&edu_referral_code=awcbbrs&refSource=copy, 登录之后点击最上方黄色横幅获取 pro，可通过 edu 领取一个月 pro
+16. 使用 apple 登录 perplexity，网址（#aff）: https://pplx.ai?utm_source=backtoschool&edu_referral_code=awcbbrs&refSource=copy, 登录之后点击最上方黄色横幅获取 pro，可通过 edu 领取一个月 pro
     ![alt text](/assets/images/liberty/image-19.png)
     ![alt text](/assets/images/liberty/image-20.png)
     ![alt text](/assets/images/liberty/image-21.png)
     ![alt text](/assets/images/liberty/image-22.png)
-
-## 可以找我接码，但前提是给我 GitHub 点 5 个 star，越多越好，我手机号：+447709722684
