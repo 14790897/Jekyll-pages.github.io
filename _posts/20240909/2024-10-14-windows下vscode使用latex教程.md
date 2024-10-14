@@ -64,3 +64,6 @@ related: true
   ```
 
   按 Ctrl + S 保存文件，VS Code 将自动编译并生成 PDF。
+
+## 参考内容
+https://stackoverflow.com/questions/56109128/enable-xelatex-in-latex-workshops-for-visual-studio-code
