@@ -40,7 +40,8 @@ related: true
            "%DOC%"
          ]
        }
-     ]
+     ],
+    "latex-workshop.formatting.latex": "latexindent",
    }
    ```
 
