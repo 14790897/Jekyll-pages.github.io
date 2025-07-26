@@ -1,7 +1,7 @@
 ---
 title: HOME ASSTANT容器启用mdns方法
 date: 2025-07-26
-categories: tech
+categories: lifestyle
 share: true
 comments: true
 author_profile: true
