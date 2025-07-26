@@ -128,6 +128,7 @@ if [[ -s "$TMPFILE" ]]; then
   sudo systemctl restart dnsmasq
 
   echo "✅ 更新完成！"
+  exit 0
 else
   echo "⚠️ 未获取到任何有效 .local 设备，未更新文件"
 fi
@@ -209,6 +210,7 @@ Description=Update mDNS host entries for dnsmasq
 [Service]
 Type=oneshot
 ExecStart=/usr/local/bin/update-mdns-hosts.sh
+TimeoutStartSec=15
 ```
 
 定时器配置：
