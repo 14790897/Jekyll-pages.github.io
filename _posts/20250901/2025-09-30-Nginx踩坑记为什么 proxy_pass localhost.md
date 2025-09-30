@@ -1,6 +1,6 @@
 ---
 title: 【Nginx踩坑记】为什么 proxy_pass http://localhost:8055 会偶尔连不上？一次 IPv6 回环地址导致的坑
-date: 2025-09-01
+date: 2025-09-30
 categories: tech
 share: true
 comments: true
