@@ -4,8 +4,10 @@ main:
     url: /categories/tech
   - title: "生活"
     url: /categories/lifestyle
-  - title: "gpt4写高中作文"
-    url: /categories/Essay/city-list
+  - title: "哲学"
+    url: /categories/philosophy
+  # - title: "gpt4写高中作文"
+  #   url: /categories/Essay/city-list
   # - title: "Search"
   #   url: /categories/search/search
   # - title: "最新科技"
