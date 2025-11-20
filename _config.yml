@@ -123,7 +123,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/hahfrank"
+      url: "https://x.com/hahfrank"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -132,7 +132,7 @@ author:
       url: "https://github.com/14790897"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/hahhha_1"
     # - label: "Wechat"
     #   icon: "fab fa-fw fa-weixin"
     #   url: "/assets/images/wechat-qrcode.jpg"
@@ -158,7 +158,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/hahhha_1"
 
 
 # Reading Files
