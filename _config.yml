@@ -126,7 +126,7 @@ author:
       url: "https://x.com/hahfrank"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/profile.php?id=61550115629105"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/14790897"
@@ -155,7 +155,7 @@ footer:
       url: "https://github.com/14790897"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://gitlab.com/14790897"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
