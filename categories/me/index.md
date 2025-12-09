@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "me" # 这里填写分类的名称
+title: "我是谁?" # 这里填写分类的名称
 taxonomy: me # 这里填写分类的标识符，与子文件夹名称一致
 ---
 
