@@ -1,0 +1,227 @@
+---
+layout: category
+title: "me" # 这里填写分类的名称
+taxonomy: me # 这里填写分类的标识符，与子文件夹名称一致
+---
+
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>个人信息 · liuweiqing</title>
+  <style>
+    :root{--blue:#2563eb;--muted:#64748b;--bg:#f6f8fb}
+    body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#0f172a; margin:20px; background: #ffffff}
+    .container{max-width:900px;margin:0 auto;padding:20px}
+    h2{font-size:20px;color:var(--blue);padding-bottom:6px;border-bottom:3px solid var(--blue);display:inline-block}
+    .card{display:flex;justify-content:space-between;align-items:flex-start;background:linear-gradient(135deg,#f6f8fb 0%,#ffffff 100%);padding:25px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin:20px 0}
+    .left{flex:1}
+    .meta{margin:8px 0;font-size:16px}
+    .meta strong{color:#1e293b;display:inline-block;min-width:80px}
+    .meta a{color:var(--blue);text-decoration:none}
+    .note{margin-top:20px;padding:15px;background:#f8fafc;border-left:4px solid var(--blue);border-radius:6px;color:#475569;line-height:1.7}
+    .skills{background:#fff;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin:20px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:15px}
+    .skill{padding:12px;border-radius:6px}
+    .skill .title{font-weight:700;margin-bottom:6px}
+    .skill--blue{background:#f0f9ff;border-left:4px solid #3b82f6}
+    .skill--green{background:#f0fdf4;border-left:4px solid #22c55e}
+    .skill--yellow{background:#fefce8;border-left:4px solid #eab308}
+    .skill--red{background:#fef2f2;border-left:4px solid #ef4444}
+    .skill--purple{background:#f5f3ff;border-left:4px solid #a855f7}
+    .skill--pink{background:#fdf4ff;border-left:4px solid #d946ef}
+    hr{border:none;border-top:1px solid #e6edf3;margin:26px 0}
+    .project{margin:15px 0;background:#f8fafc;padding:18px;border-radius:10px;border-left:5px solid #3b82f6}
+    .project.green{border-left-color:#22c55e}
+    .project.yellow{border-left-color:#eab308}
+    .project.red{border-left-color:#ef4444}
+    .project.purple{border-left-color:#a855f7}
+    .project a{color:var(--blue);text-decoration:none}
+    img.avatar{width:160px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);border:4px solid #fff}
+  @media screen and (max-width:720px){.card{flex-direction:column}.card div + div{margin-left:0;margin-top:18px}}
+  /* social inline list */
+  .social-list{display:flex;align-items:center;gap:14px;list-style:none;padding:0;margin:8px 0}
+  .social-link{display:inline-flex;align-items:center;gap:8px;color:var(--blue);text-decoration:none;font-size:15px}
+  .social-link:hover{text-decoration:underline}
+  .social-icon{width:18px;height:18px;display:inline-block;flex:0 0 18px}
+  .sr-only{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap;border:0;padding:0;margin:-1px}
+    @media print{
+      @page{size:A4;margin:1.5cm}
+      body{margin:0;background:#fff;color:#000;font-size:11pt;line-height:1.4}
+      .container{max-width:100%;padding:0;margin:0}
+      .card,.skills,.project{box-shadow:none;page-break-inside:avoid;margin:10px 0}
+      .card{background:#fff;border:1px solid #ddd;padding:15px;display:flex!important;flex-direction:row!important}
+      .left{flex:1!important}
+      .card>div:last-child{flex-shrink:0!important;margin-left:20px!important;margin-top:0!important}
+      .skills{background:#fff;border:1px solid #ddd}
+      .skill{page-break-inside:avoid}
+      .project{page-break-inside:avoid;margin:12px 0;padding:12px;background:#fff;border:1px solid #ddd;border-left-width:3px}
+      h2{font-size:14pt;margin-top:15px;page-break-after:avoid}
+      h3{font-size:12pt;page-break-after:avoid}
+      hr{margin:15px 0}
+      .note{page-break-inside:avoid;background:#f8f8f8;border-left-width:3px}
+      img.avatar{width:100px;box-shadow:none}
+      a{color:#000;text-decoration:underline}
+      .grid{gap:10px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h2>👤 个人信息</h2>
+
+    <div class="card">
+      <div class="left">
+
+        <p class="meta"><strong>姓名：</strong><span>liuweiqing</span></p>
+
+        <p class="meta"><strong>邮箱：</strong><a href="mailto:liuweiqing147@gmail.com">liuweiqing147@gmail.com</a></p>
+
+        <ul class="social-list" aria-label="社交和位置">
+          <li>
+            <a class="social-link" href="https://github.com/14790897" target="_blank" rel="noopener" aria-label="GitHub">
+              <span class="social-icon" aria-hidden="true">
+                <!-- GitHub SVG -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path d="M12 .5C5.73.5.75 5.48.75 11.76c0 4.9 3.17 9.06 7.57 10.53.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.03-3.08.67-3.73-1.36-3.73-1.36-.5-1.27-1.22-1.61-1.22-1.61-.99-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.46-.28-5.05-1.23-5.05-5.48 0-1.21.43-2.2 1.13-2.98-.11-.28-.49-1.42.11-2.96 0 0 .92-.29 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.42 3.02-1.13 3.02-1.13.6 1.54.22 2.68.11 2.96.7.78 1.13 1.77 1.13 2.98 0 4.26-2.59 5.19-5.06 5.47.39.34.73 1.01.73 2.04 0 1.47-.01 2.66-.01 3.02 0 .29.2.64.76.53C19.08 20.82 22.25 16.66 22.25 11.76 22.25 5.48 17.27.5 11 .5z"/>
+                </svg>
+              </span>
+              <span class="link-text">14790897</span>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+
+          <li>
+            <a class="social-link" href="https://space.bilibili.com/374799716" target="_blank" rel="noopener" aria-label="Bilibili">
+              <span class="social-icon" aria-hidden="true">
+                <!-- Bilibili SVG (simple TV icon) -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path d="M3 6.5C3 5.67 3.67 5 4.5 5h15c.83 0 1.5.67 1.5 1.5v9c0 .83-.67 1.5-1.5 1.5h-15A1.5 1.5 0 0 1 3 15.5v-9zM8 8H6v6h2V8zm6 0h-2v6h2V8z"/>
+                </svg>
+              </span>
+              <span class="link-text">374799716</span>
+              <span class="sr-only">Bilibili</span>
+            </a>
+          </li>
+
+          <li>
+            <span class="social-link" aria-hidden="false">
+              <span class="social-icon" aria-hidden="true">
+                <!-- Location SVG -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+                </svg>
+              </span>
+              <span class="link-text">上海</span>
+            </span>
+          </li>
+        </ul>
+
+        <div class="note">
+          <p>🚀 一个热爱开源的全栈开发者，擅长使用 <strong>JavaScript/TypeScript</strong>、<strong>Python</strong> 等语言开发网站、自动化脚本和浏览器扩展。</p>
+          <p>💡 熟悉前端框架（Next.js、Vue.js）、后端开发、自动化测试及部署流程，积极尝试将人工智能与实际应用结合。</p>
+        </div>
+
+      </div>
+      <div style="flex-shrink:0;margin-left:30px;">
+        <img class="avatar" src="./selfie.jpg" alt="个人照片" />
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🛠️ 技能概览</h2>
+
+    <div class="skills">
+      <div class="grid">
+        <div class="skill skill--blue">
+          <div class="title">🎨 前端开发</div>
+          <div style="color:var(--muted);font-size:14px">熟悉 Next.js、Vue.js、Tailwind CSS、shadcn/ui 等框架和组件库</div>
+        </div>
+
+        <div class="skill skill--green">
+          <div class="title">⚙️ 后端开发</div>
+          <div style="color:var(--muted);font-size:14px">掌握 Node.js、Python；熟悉 API 设计及数据库（如 Supabase）</div>
+        </div>
+
+        <div class="skill skill--yellow">
+          <div class="title">🤖 自动化与脚本</div>
+          <div style="color:var(--muted);font-size:14px">熟悉 Puppeteer、GitHub Actions、Tampermonkey 脚本以及自动化运行环境</div>
+        </div>
+
+        <div class="skill skill--red">
+          <div class="title">📍 地图与位置服务</div>
+          <div style="color:var(--muted);font-size:14px">熟悉高德地图 API 的调用与数据处理</div>
+        </div>
+
+        <div class="skill skill--purple">
+          <div class="title">🐳 容器与部署</div>
+          <div style="color:var(--muted);font-size:14px">能使用 Docker、docker-compose、Vercel 快速搭建应用，配置环境变量及限资源运行</div>
+        </div>
+
+        <div class="skill skill--pink">
+          <div class="title">🧩 浏览器扩展</div>
+          <div style="color:var(--muted);font-size:14px">具备开发 Chrome 扩展的经验，熟悉 content script、background script、popup 等模块</div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>💼 项目经验</h2>
+
+    <div class="project">
+      <h3 style="margin:0 0 8px 0;color:#1e40af">📝 <a href="https://github.com/14790897/Paper-AI">Paper-AI – 真实文献引用的 AI 论文写作平台</a></h3>
+      <ul>
+        <li>开发了一个基于 <strong>Next.js</strong> 和 <strong>Supabase</strong> 的论文写作平台，能够使用人工智能生成论文并自动查询引文。</li>
+        <li>实现了“人工智能书写”及“寻找文献”功能：用户在编辑器中与 AI 对话生成文章内容，并可根据关键词在 Semantic Scholar、arXiv 和 PubMed 搜索文献，系统会将查询到的信息整合到论文。</li>
+        <li>提供可视化编辑器支持直接修改 AI 生成的内容，内置工具可调整文本样式和布局。</li>
+        <li>完成了 Docker 镜像、环境变量及 Vercel 部署配置，允许用户通过界面设定 OpenAI 密钥。</li>
+      </ul>
+    </div>
+
+    <div class="project green">
+      <h3 style="margin:0 0 8px 0;color:#15803d">🤖 <a href="https://github.com/14790897/Auto-Read-Liunxdo">Auto-Read-Liunxdo – Discourse 自动阅读与点赞脚本</a></h3>
+      <ul>
+        <li>编写 <strong>Node.js + Puppeteer</strong> 自动化脚本，可在特定的 Discourse 论坛自动登录、阅读帖文并随机点赞；提供用户在浏览器中使用的 Tampermonkey 脚本。</li>
+        <li>支持多种运行方式：本地安装依赖后执行、在 GitHub Actions 定时运行或通过 Docker 运行，用户只需在 .env 中配置用户名与密码。</li>
+        <li>通过 GitHub Actions 的 cron 工作流实现随机时间自动阅读，示例工作流位于 .github/workflows/cron_read.yaml。</li>
+        <li>提供配置模板，支持自定义脚本适配其它 Discourse 网站，用户可通过修改匹配地址和环境变量增加支持。</li>
+      </ul>
+    </div>
+
+    <div class="project yellow">
+      <h3 style="margin:0 0 8px 0;color:#a16207">✍️ <a href="https://github.com/14790897/handwriting-web">Handwriting-Web – 手写文字生成平台</a></h3>
+      <ul>
+        <li>使用 <strong>Python (Flask) + Vue.js</strong> 构建可在线将文本生成为手写风格图像的网站，支持自定义字体和背景。</li>
+        <li>实现了上传自定义字体、指定背景或自动生成带横线背景、随机扰动字符、墨迹深浅变化和涂改痕迹等细节，使生成效果更接近真实书写。</li>
+        <li>支持从 pdf、doc 等文件中提取文本，并在页面右侧实时预览生成效果；满意后可一键生成整套图片并打包为 zip 文件或导出为 PDF。</li>
+        <li>项目提供 Docker 部署方案，并允许在 docker-compose.yml 中限制前端和后端容器的 CPU 使用率；同时提供本地运行教程，方便开发和扩展。</li>
+      </ul>
+    </div>
+
+    <div class="project red">
+      <h3 style="margin:0 0 8px 0;color:#b91c1c">🍪 <a href="https://github.com/14790897/CookiesClerk">CookiesClerk – Chrome 多账号 Cookie 管理扩展</a></h3>
+      <ul>
+        <li>设计并开发 Chrome 浏览器插件，解决同一网站多账号登录时 Cookie 管理复杂的问题。</li>
+        <li>插件允许用户为每个账号保存、加载和删除 Cookie，同时支持一键清除已关闭或所有账户的 Cookie，并可记录不同域名便于管理。</li>
+        <li>使用 <strong>Vite + Vue3</strong> 开发扩展的 popup、content script 和 background 模块，项目结构清晰，方便维护和二次开发。</li>
+        <li>插件已发布至 Chrome 网上应用店，提供在线教程与群组支持，并接受社区贡献。</li>
+      </ul>
+    </div>
+
+    <div class="project purple">
+      <h3 style="margin:0 0 8px 0;color:#7e22ce">📍 <a href="https://github.com/14790897/MapDistancePro">MapDistancePro – 基于高德地图的批量地址距离计算工具</a></h3>
+      <ul>
+        <li>开发了一个基于 <strong>Next.js 15</strong> 和 <strong>Tailwind CSS</strong> 的应用，支持输入多个地址后在地图上标注并计算到用户位置的距离。</li>
+        <li>实现批量地址解析、自动获取用户 GPS 定位、利用高德地图 API 进行地理编码和球面距离计算，并按距离排序。</li>
+        <li>提供 CSV 导出、环境变量配置、高德 API 密钥管理，支持在设置页面输入密钥或通过 .env.local 文件配置，密钥自动保存到浏览器的 localStorage。</li>
+        <li>采用 Vercel 部署，前端 UI 基于 shadcn/ui；核心数据处理在 app/page.tsx 中实现，包括地址转坐标、距离计算、批量处理和数据导出等函数。</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -8,6 +8,10 @@ main:
     url: /categories/philosophy
   - title: "金融"
     url: /categories/finance
+  - title: "历史"
+    url: /categories/history
+  - title: "关于我"
+    url: /categories/me
   # - title: "gpt4写高中作文"
   #   url: /categories/Essay/city-list
   # - title: "Search"
