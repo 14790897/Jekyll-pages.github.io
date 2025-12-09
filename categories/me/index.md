@@ -125,7 +125,7 @@ taxonomy: me # 这里填写分类的标识符，与子文件夹名称一致
 
       </div>
       <div style="flex-shrink:0;margin-left:30px;">
-        <img class="avatar" src="./selfie.jpg" alt="个人照片" />
+        <img class="avatar" src="/assets/images/selfie.jpg" alt="个人照片" />
       </div>
     </div>
 
