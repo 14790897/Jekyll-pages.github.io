@@ -1,0 +1,92 @@
+---
+title: [PVE笔记] Alpine Nextcloud 扩容指南：一条命令搞定数据迁移
+date: 2025-12-10
+categories: tech
+share: true
+comments: true
+author_profile: true
+related: true
+tags: [Proxmox, Alpine Linux, Nextcloud, 数据迁移, 扩容指南]
+---
+
+## 📌 背景
+
+用 Proxmox VE (PVE) 的 LXC 容器部署了 Alpine Nextcloud，刚开始只给了 2G 空间，瞬间满了。挂载了新硬盘，但不知道怎么把旧数据无缝迁移过去？
+
+很多人倒在了挂载这步：直接挂载新盘会把原来的配置文件“盖住”，导致服务报错。
+
+其实，**重点就在于一条“搬家”命令**。
+
+---
+
+## 🚀 核心操作步骤
+
+### 1\. 准备工作：移走旧数据
+
+先进入容器，把原来的数据目录改名备份，给新硬盘腾位置。
+
+```bash
+pct enter 108  # 进入你的容器ID
+mv /var/lib/nextcloud/data /var/lib/nextcloud/data_old
+```
+
+_此时，你的旧数据都在 `data_old` 里，`data` 目录需要新建一个空的给新硬盘挂载。_
+
+### 2\. 挂载新硬盘
+
+在 PVE 界面：**资源 (Resources)** -\> **添加 (Add)** -\> **挂载点 (Mount Point)**。
+
+- **路径：** `/var/lib/nextcloud/data`
+- **大小：** 随你喜欢（比如 500G）
+
+### 3\. ⭐️ 重点来了：执行“搬家”命令
+
+再次进入容器。现在 `data` 是空的（新硬盘），`data_old` 是旧数据。
+我们需要把所有数据、权限、隐藏文件原封不动地复制过去。
+
+**请执行这条“灵魂命令”：**
+
+```bash
+cp -a /var/lib/nextcloud/data_old/. /var/lib/nextcloud/data/
+```
+
+> **📝 划重点：**
+>
+> - **`-a` 参数**：这是 Archive（归档）模式，它能保留文件的所有**权限、用户组、时间戳**。没有它，复制过去的文件权限会乱，Nextcloud 直接崩。
+> - **`/.` 写法**：确保连同 `.ocdata` 这种隐藏文件一起复制过去。
+
+### 4\. 修复权限
+
+虽然用了 `-a`，但为了保险（尤其是挂载点本身属于 root），建议再修正一次权限：
+
+```bash
+chown -R nextcloud:$(id -gn nextcloud) /var/lib/nextcloud/data
+```
+
+_注：如果出现 `chown: .../lost+found: Permission denied` 报错，**请直接忽略**。这是新硬盘的系统目录，本来就不该动。_
+
+---
+
+## 💡 新手必看：如何获取初始用户名密码？
+
+如果你是刚刚安装好这个 Alpine Nextcloud 容器，可能会一脸懵：“登录密码是多少？”
+
+在这个版本的脚本中，有一个隐藏的小技巧：
+安装完成后，在控制台输入以下命令：
+
+```bash
+update
+```
+
+运行后，屏幕上会显示你的 **Nextcloud 初始用户名（通常是 ncAdmin）和随机生成的密码**。一定要记下来！
+
+---
+
+## 🎉 总结
+
+1.  **备份：** 先 `mv` 移走旧目录。
+2.  **挂载：** PVE 里挂载新盘。
+3.  **搬运：** 用 `cp -a` 完美克隆数据（这是关键！）。
+4.  **密码：** 运行 `update` 获取初始凭证。
+
+搞定收工！你的 Nextcloud 现在拥有海量空间了。
