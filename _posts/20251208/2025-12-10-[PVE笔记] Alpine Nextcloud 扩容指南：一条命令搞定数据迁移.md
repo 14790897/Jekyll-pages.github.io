@@ -11,7 +11,7 @@ tags: [Proxmox, Alpine Linux, Nextcloud, 数据迁移, 扩容指南]
 
 ## 📌 背景
 
-用 Proxmox VE (PVE) 的 LXC 容器部署了 Alpine Nextcloud，刚开始只给了 2G 空间，瞬间满了。挂载了新硬盘，但不知道怎么把旧数据无缝迁移过去？
+用 Proxmox VE (PVE) 的 LXC 容器部署了 Alpine Nextcloud (部署命令`bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-nextcloud.sh)`)，刚开始只给了 2G 空间，瞬间满了。挂载了新硬盘，但不知道怎么把旧数据无缝迁移过去？
 
 很多人倒在了挂载这步：直接挂载新盘会把原来的配置文件“盖住”，导致服务报错。
 
