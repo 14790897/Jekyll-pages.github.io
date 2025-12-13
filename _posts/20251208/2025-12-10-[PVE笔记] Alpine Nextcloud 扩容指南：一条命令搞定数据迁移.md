@@ -1,5 +1,5 @@
 ---
-title: [PVE笔记] Alpine Nextcloud 扩容指南：一条命令搞定数据迁移
+title: (PVE笔记) Alpine Nextcloud 扩容指南：一条命令搞定数据迁移
 date: 2025-12-10
 categories: tech
 share: true
