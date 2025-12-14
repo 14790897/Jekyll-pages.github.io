@@ -33,7 +33,7 @@
     "build:js": "npm run uglify && npm run add-banner"
   },
   "dependencies": {
-    "@sentry/vue": "^7.53.1",
+    "@sentry/vue": "^7.120.4",
     "intro.js": "^7.0.1"
   }
 }
