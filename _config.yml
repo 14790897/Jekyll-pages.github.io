@@ -24,8 +24,8 @@ description              : "An amazing website."
 url                      : "https://sixiangjia.de"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "14790897/Jekyll-pages.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/favicon.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/favicon.png"
+teaser                   : "/assets/images/favicon.ico" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/favicon.ico"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false  # true, false (default)
 words_per_minute         : 200
