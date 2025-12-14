@@ -2,29 +2,25 @@
 ---
 
 <!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-    <!-- 4.19新增切换粒子动画按钮 -->
+    <!-- 4.19.2023新增切换粒子动画按钮 -->
     <!-- <button id="toggleParticles" class="toggle-particles">开启粒子效果</button> -->
-    <!-- cookies横幅 4.21 -->
+    <!-- cookies横幅 4.21.2023 -->
     <!-- {% include cookie-consent.html %} -->
 
     <div class="initial-content">
       {{ content }}
+      {% include after-content.html %}
     </div>
 
     {% if site.search == true %}
@@ -49,7 +45,7 @@
     </div>
 
     {% include scripts.html %}
-    <!-- 4.19新增,导入粒子效果 -->
+    <!-- 4.19.2023新增,导入粒子效果 -->
     <!-- {% include particles.html %} -->
 
   </body>
