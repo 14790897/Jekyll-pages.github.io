@@ -307,6 +307,8 @@ defaults:
       related: true
       show_date: true
       # classes: wide
+      toc: true        # 开启目录
+      toc_sticky: true # 目录吸附在右侧（不仅限于侧边栏）
       stylesheet: "assets/css/cookiesbanner.scss"
 
 # collections:
