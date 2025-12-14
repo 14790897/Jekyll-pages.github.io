@@ -8,6 +8,7 @@ share: true
 comments: true
 author_profile: true
 related: true
+tags: [金融危机, 经济学, 财富分配, 信息不对称]
 ---
 
 ## 📌 开场：危机，真的是“灾难”吗？
