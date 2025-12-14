@@ -1,5 +1,5 @@
 ---
-title: 金融危机？不如说是一次“智商+运气”的筛选游戏
+title: 🧠 金融危机？不如说是一次“智商+运气”的筛选游戏
 date: 2025-07-17
 categories: finance
 toc: true        # 开启目录
