@@ -342,9 +342,12 @@ defaults:
       share: true
       related: true
       show_date: true
-      # classes: wide
+      # classes: wide  #文章宽屏
       toc: true        # 开启目录
       toc_sticky: true # 目录吸附在右侧（不仅限于侧边栏）
+      image: /assets/images/morandi.jpg
+      header:
+        teaser: /assets/images/morandi.jpg
       stylesheet: "assets/css/cookiesbanner.scss"
 
 # collections:
