@@ -1,3 +1,5 @@
 你在侧边栏创建的categories目录 并不是真的分类列表而是你自定义的路径 并在 navigation.yml中指明位置 它相比于真正的categories少了个#键
 
 真正的categories是在根目录下categories.md形成的
+
+它的用法其实还有很多需要自己探索 
