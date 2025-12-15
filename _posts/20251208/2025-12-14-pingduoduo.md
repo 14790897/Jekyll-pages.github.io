@@ -3,7 +3,7 @@ title: 拼多多组队领券：我有7个号，为什么怎么算都感觉亏了
 date: 2025-12-14
 toc: true # 开启目录
 toc_sticky: true # 目录吸附在右侧（不仅限于侧边栏）
-categories: philosophy
+categories: lifestyle
 share: true
 comments: true
 author_profile: true
@@ -36,8 +36,8 @@ header:
 首先算算理论最大值。
 
 - 我有 7 个号，每个号能玩 3 次。
-- 总的“人次”是：$7 \times 3 = 21$ 次。
-- 因为是 **2 人组队**，所以理论上的最大组队次数是：$21 \div 2 = 10.5$。
+- 总的“人次”是：7 * 3 = 21 次。
+- 因为是 **2 人组队**，所以理论上的最大组队次数是：21 / 2 = 10.5。
 
 去掉那个没法组队的 0.5，**理论上限是 10 次**。
 
