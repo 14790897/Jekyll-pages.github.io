@@ -10,6 +10,7 @@ header:
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
 
+![alt text](/assets/images/bank.jpg)
 
 今天去了一趟上海银行办业务，体验确实让我有些意外。
 
