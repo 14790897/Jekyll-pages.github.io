@@ -12,12 +12,12 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-
+{% comment %}
     <!-- 4.19.2023新增切换粒子动画按钮 -->
     <!-- <button id="toggleParticles" class="toggle-particles">开启粒子效果</button> -->
     <!-- cookies横幅 4.21.2023 -->
     <!-- {% include cookie-consent.html %} -->
-
+{% endcomment %}
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}
@@ -28,7 +28,7 @@
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
-
+{% comment %}
     <!-- <div id="cookie-banner" class="cookie-banner" style="display: none;">
       <p>
         我们使用 Cookie 以确保您在我们的网站上获得最佳体验。继续浏览即表示您同意我们的
@@ -36,7 +36,7 @@
       </p>
       <button id="cookie-accept">同意</button>
     </div> -->
-
+{% endcomment %}
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
@@ -45,8 +45,10 @@
     </div>
 
     {% include scripts.html %}
+    {% comment %}
     <!-- 4.19.2023新增,导入粒子效果 -->
     <!-- {% include particles.html %} -->
+     {% endcomment %}
 
   </body>
 </html>
