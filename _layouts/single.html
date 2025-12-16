@@ -75,7 +75,16 @@ layout: default
         </p>
       {% endif %}
     {% endif %}
-
+    {% comment %}
+    <!-- {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+      {% if site.comments.provider == "waline" %}
+        {% include waline.html %}
+        console.log("waline");
+      {% else %}
+        {% include comments.html %}
+      {% endif %}
+    {% endif %} -->
+    {% endcomment %}
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
