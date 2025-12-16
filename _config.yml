@@ -345,11 +345,11 @@ defaults:
       # classes: wide  #文章宽屏
       toc: true        # 开启目录
       toc_sticky: true # 目录吸附在右侧（不仅限于侧边栏）
-      image: /assets/images/morandi.png
+      image: /assets/images/morandi.jpg
       header:
-        overlay_image: /assets/images/morandi.png
+        overlay_image: /assets/images/morandi.jpg
         overlay_filter: 0.5
-        teaser: /assets/images/morandi.png
+        teaser: /assets/images/morandi.jpg
       stylesheet: "assets/css/cookiesbanner.scss"
 
 # collections:

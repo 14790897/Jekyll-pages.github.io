@@ -3,7 +3,7 @@ layout: home
 author_profile: true
 title: "Weiqing's Blog"  # 浏览器标签页标题
 header:
-  overlay_image: /assets/images/morandi.png # 记得换一张高清大图
+  overlay_image: /assets/images/morandi.jpg # 记得换一张高清大图
   overlay_filter: 0.5 # 图片变暗一点，突出文字
   caption: "designed by Liu Weiqing"
 excerpt: "文字不仅是记录，更是一种无声的抵抗。"
