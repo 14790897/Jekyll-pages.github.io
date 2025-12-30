@@ -1,5 +1,5 @@
 ---
-title: 会员制餐厅深度思考-吃的真的是黄金吗？
+title: 会员制餐厅思考-吃的真的是黄金吗？
 date: 2025-12-25
 # categories:
 #   - finance
