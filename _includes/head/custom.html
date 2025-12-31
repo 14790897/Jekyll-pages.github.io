@@ -31,3 +31,20 @@
 {% endcomment %}
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico" sizes="16x16">
+
+{% comment %}
+12.31.2025 更新 MathJax 配置，支持 \( \) 行内公式,因为Kramdown 默认只支持 $ $ 行内公式,而jekyll会将$转成\
+{% endcomment %}
+
+<script>
+  // 配置 MathJax，让它识别 \( 和 \)
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+      processEscapes: true
+    }
+  };
+</script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
