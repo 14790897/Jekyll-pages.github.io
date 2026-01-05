@@ -55,11 +55,13 @@ sysctl -p /etc/sysctl.d/99-tailscale.conf
 运行以下命令：
 
 ```bash
-tailscale up --advertise-routes=192.168.0.0/24 --accept-routes
+tailscale up --advertise-exit-node --accept-routes --advertise-routes=192.168.0.0/24
 
 ```
 
 - **注意**：如果你的内网是 `192.168.1.x`，请把命令里的 `0` 改成 `1`。
+- `--advertise-exit-node` 参数让 PVE 成为出口节点，其他设备可以通过它访问互联网。
+  - **如果你只需要访问内网设备，不需要通过 PVE 上网**，可以去掉 `--advertise-exit-node` 参数，只使用：`tailscale up --accept-routes --advertise-routes=192.168.0.0/24`
 - 运行后，如果系统没有报错，通常是静默成功的；有时会提示重新认证 URL，点进去登录一下即可。
 
 ---
@@ -73,7 +75,14 @@ tailscale up --advertise-routes=192.168.0.0/24 --accept-routes
 2. 找到你的 **pve** 设备。
 3. 点击设备最右侧的 **三个点图标 (...)** -> 选择 **Edit route settings**。
 4. 你会看到 `192.168.0.0/24` 出现在列表中，状态是灰色的。**点击开关启用它**。
-5. 保存（Save）。
+5. （可选）如果你使用了 `--advertise-exit-node` 参数，你还会看到 **"Use as exit node"**（作为出口节点）选项，也需要**启用它**。如果不需要出口节点功能，可以跳过这一步。
+6. 保存（Save）。
+
+**关于出口节点的使用：**
+- 出口节点是**可选功能**，仅在你需要通过 PVE 访问互联网时才需要配置。
+- 启用出口节点后，其他设备（如手机、电脑）想要使用 PVE 作为网络出口时，需要在各自设备的 Tailscale 客户端中**手动选择**这个出口节点。
+- 以手机为例：打开 Tailscale App → 点击右上角的 **三个点** → 选择 **Use exit node** → 选择你的 **pve** 设备。
+- 这样，你的手机就可以通过 PVE 的网络访问互联网了（相当于人在外面，网络却是从家里出去的）。
 
 ---
 
