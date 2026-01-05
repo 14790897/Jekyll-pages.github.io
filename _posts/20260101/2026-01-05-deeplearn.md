@@ -4,6 +4,10 @@ date: 2026-01-05
 categories:
   - tech
 tags:
+  - 深度学习
+  - 数据清洗
+  - 标签噪声
+  - 模型鲁棒性
 
 header:
   overlay_image: https://images.unsplash.com/photo-1618556391870-aa21debfe537?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
