@@ -282,6 +282,12 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-polyglot
+
+languages: ["zh", "en"] # 第一个是默认语言
+default_lang: "zh"
+exclude_from_localization: ["javascript", "images", "css"] # 不需要翻译的静态资源
+parallel_localization: false # 如果你电脑配置不高，建议设为 false
 
 # mimic GitHub Pages with --safe
 whitelist:
