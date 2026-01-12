@@ -1,0 +1,62 @@
+name: Auto Translate Posts
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - '_posts/**/*.md'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install openai PyYAML frontmatter
+
+      - name: Detect new posts
+        id: detect
+        run: |
+          # 获取上一个 commit 对比，检测新增 markdown 文件
+          git diff --name-only HEAD~1 HEAD > changed_files.txt
+          NEW_POSTS=""
+          while IFS= read -r file; do
+            if [[ $file == _posts/* ]] && [[ $file == *.md ]]; then
+              NEW_POSTS="$NEW_POSTS $file"
+            fi
+          done < changed_files.txt
+          echo "files=$NEW_POSTS" >> $GITHUB_OUTPUT
+
+      - name: Translate posts to English
+        if: steps.detect.outputs.files != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5' }}
+        run: python .github/scripts/translate_posts.py '${{ steps.detect.outputs.files }}'
+
+      - name: Commit translations
+        if: success() && steps.detect.outputs.files != ''
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _posts/**/en/*.md
+          if git diff --cached --quiet; then
+            echo "No new translations to commit"
+          else
+            git commit -m "chore: auto-translate posts to English"
+            git push
+          fi
