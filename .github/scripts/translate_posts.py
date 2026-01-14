@@ -9,9 +9,8 @@
 
 import os
 import sys
-import json
 from pathlib import Path
-from datetime import datetime
+
 import frontmatter
 import openai
 
@@ -56,9 +55,9 @@ def translate_frontmatter(fm: dict, target_lang: str = "English") -> dict:
     翻译 frontmatter 中的字段（title, excerpt, categories, tags 等）
     """
     translated = fm.copy()
-    
+
     fields_to_translate = ["title", "excerpt", "description"]
-    
+
     for field in fields_to_translate:
         if field in translated and isinstance(translated[field], str):
             try:
@@ -68,7 +67,7 @@ def translate_frontmatter(fm: dict, target_lang: str = "English") -> dict:
             except Exception as e:
                 print(f"✗ (Error: {e})")
                 # 保持原文
-    
+
     return translated
 
 
@@ -79,18 +78,18 @@ def generate_english_filename(original_path: str) -> str:
     新: _posts/2025-01-11/en/example.md
     """
     path = Path(original_path)
-    
+
     # 提取日期前缀 (YYYY-MM-DD)
     stem = path.stem  # "2025-01-11-example"
     parts = stem.split("-", 3)
-    
+
     if len(parts) >= 4:
         date_prefix = "-".join(parts[:3])  # "2025-01-11"
         filename = "-".join(parts[3:])  # "example"
     else:
         date_prefix = stem
         filename = "post"
-    
+
     # 新路径: _posts/2025-01-11/en/example.md
     new_path = path.parent / date_prefix / "en" / f"{filename}.md"
     return str(new_path)
@@ -102,38 +101,38 @@ def process_post(post_path: str) -> bool:
     """
     try:
         post_path = Path(post_path)
-        
+
         if not post_path.exists():
             print(f"⚠ File not found: {post_path}")
             return False
-        
+
         print(f"\n📄 Processing: {post_path}")
-        
+
         # 读取原文章
         with open(post_path, "r", encoding="utf-8") as f:
             post = frontmatter.load(f)
-        
+
         # 翻译内容
         print("  Translating content...", end=" ", flush=True)
         translated_content = translate_with_gpt(post.content)
         print("✓")
-        
+
         # 翻译 frontmatter
         print("  Translating metadata...")
         translated_fm = translate_frontmatter(post.metadata)
-        
+
         # 生成英文版本文件名
         en_path = Path(generate_english_filename(str(post_path)))
         en_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         # 写入英文文章
         en_post = frontmatter.Post(translated_content, **translated_fm)
         with open(en_path, "w", encoding="utf-8") as f:
             frontmatter.dump(en_post, f)
-        
+
         print(f"  ✓ Saved to: {en_path}")
         return True
-        
+
     except Exception as e:
         print(f"  ✗ Error processing {post_path}: {e}")
         return False
@@ -146,25 +145,26 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python translate_posts.py 'file1.md file2.md ...'")
         sys.exit(1)
-    
+
     # 解析文件列表
     files_str = sys.argv[1].strip()
     files = [f.strip() for f in files_str.split() if f.strip()]
-    
+
     if not files:
         print("No files to process")
         return
-    
+
     print(f"🚀 Starting translation of {len(files)} post(s)...")
     print(f"Using model: {model}")
-    
+
     success_count = 0
     for file in files:
         if process_post(file):
             success_count += 1
-    
+
     print(f"\n✅ Translation complete: {success_count}/{len(files)} posts translated successfully")
 
 
 if __name__ == "__main__":
+    main()
     main()
