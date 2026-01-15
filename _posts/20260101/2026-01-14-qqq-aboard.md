@@ -1,18 +1,14 @@
 ---
-title: "论文排版救星：Word 长文档写作的几个“保命”技巧"
-date: 2026-01-11
+title: 纳指定投终极攻略：告别高费率与汇款损耗，详解“国内蓄水，出海养鱼”战术
+date: 2026-01-14
 categories:
-  - tech
+  - finance
 tags:
-  - Word
-  - Thesis
-  - Dissertation
-  - Tips
+  - NASDAQ100
+  - QQQM
+  - QDII
+  - 定投策略
 ---
-
-## 标题：纳指定投终极攻略：告别高费率与汇款损耗，详解“国内蓄水，出海养鱼”战术
-
-
 
 ### 引言：散户的“两难”困境
 
