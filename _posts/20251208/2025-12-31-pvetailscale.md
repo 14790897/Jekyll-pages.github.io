@@ -36,6 +36,9 @@ tags:
 # 1. 开启 IPv4 和 IPv6 的转发功能，并写入配置文件实现永久生效
 echo 'net.ipv4.ip_forward = 1' | tee -a /etc/sysctl.d/99-tailscale.conf
 echo 'net.ipv6.conf.all.forwarding = 1' | tee -a /etc/sysctl.d/99-tailscale.conf
+# 以下命令lxc debian需要设置，意思：“虽然我要当路由器转发流量，但我也要听上级路由器的指挥，此外想要ipv6，路由器和lxc都需要使用SLAAC，01.21.2026
+echo "net.ipv6.conf.eth0.accept_ra = 2" | tee -a /etc/sysctl.d/99-tailscale.conf
+echo "net.ipv6.conf.all.accept_ra = 2" | tee -a /etc/sysctl.d/99-tailscale.conf
 
 # 2. 让配置立即生效，无需重启
 sysctl -p /etc/sysctl.d/99-tailscale.conf
@@ -113,7 +116,29 @@ Tailscale 默认开启了 **SNAT（源地址伪装）**。
 
 **Troubleshooting（常见问题）：**
 如果你在配置时看到了关于 `UDP GRO forwarding` 的警告，别慌，那只是性能优化建议。你可以通过 `ethtool` 命令开启它来获得更快的传输速度，但这不影响基本功能的连通性。
+```sh
+cat <<EOF > /etc/systemd/system/tailscale-eth-fix.service
+[Unit]
+Description=Tailscale UDP Optimization
+After=network.target
 
+[Service]
+Type=oneshot
+# 尝试两种常见路径，前面加 - 表示如果找不到命令也不报错，继续下一行
+ExecStart=-/usr/sbin/ethtool -K eth0 rx-udp-gro-forwarding on rx-gro-list off
+ExecStart=-/sbin/ethtool -K eth0 rx-udp-gro-forwarding on rx-gro-list off
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+```sh
+systemctl daemon-reload
+systemctl restart tailscale-eth-fix.service
+systemctl status tailscale-eth-fix.service
+```
 ---
 
 _希望这篇教程能帮你打通回家的“最后的一公里”！如果有问题，欢迎评论区交流。_
