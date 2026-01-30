@@ -2,8 +2,7 @@
 title: 一切皆是宣传：为什么我不避讳承认我在“洗脑”你
 date: 2026-01-24
 categories:
-  - Thinking
-  - Meta
+  - philosophy
 tags:
   - philosophy
   - communication
