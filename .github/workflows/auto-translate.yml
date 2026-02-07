@@ -45,7 +45,8 @@ jobs:
         if: steps.detect.outputs.files != ''
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5' }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gemini-flash-latest' }}
         run: python .github/scripts/translate_posts.py '${{ steps.detect.outputs.files }}'
 
       - name: Commit translations

@@ -7,6 +7,7 @@
     python translate_posts.py "_posts/2025-01-11-example.md _posts/2025-01-10-another.md"
 """
 
+import json
 import os
 import sys
 from pathlib import Path
@@ -16,59 +17,64 @@ import openai
 
 # 初始化 OpenAI 客户端
 api_key = os.getenv("OPENAI_API_KEY")
-model = os.getenv("OPENAI_MODEL", "gpt-4-turbo")
+model = os.getenv("OPENAI_MODEL", "gemini-flash-latest")
+base_url = os.getenv("OPENAI_BASE_URL")
 
 if not api_key:
     print("Error: OPENAI_API_KEY not set")
     sys.exit(1)
 
-client = openai.OpenAI(api_key=api_key)
+client = openai.OpenAI(api_key=api_key, base_url=base_url)
 
 
-def translate_with_gpt(text: str, source_lang: str = "Chinese", target_lang: str = "English") -> str:
+def translate_post_single_call(
+    content: str, fm: dict, target_lang: str = "English"
+) -> tuple[str, dict]:
     """
-    使用 GPT 翻译文本
+    单次调用翻译正文 + frontmatter
     """
+    fields_to_translate = ["title", "excerpt", "description"]
+    fm_payload = {
+        field: fm[field]
+        for field in fields_to_translate
+        if field in fm and isinstance(fm[field], str)
+    }
+
+    payload = {
+        "content": content,
+        "frontmatter": fm_payload,
+    }
+
     try:
         response = client.chat.completions.create(
             model=model,
             messages=[
                 {
                     "role": "system",
-                    "content": f"You are a professional translator. Translate the following {source_lang} text to {target_lang}. "
-                    "Keep the tone, style, and formatting (including markdown syntax). "
-                    "Only return the translated text without any explanation."
+                    "content": "You are a professional translator. Translate the markdown content and JSON values to the target language. "
+                    "Keep markdown formatting, tone, and style. Keep JSON keys unchanged. "
+                    "Return ONLY valid JSON with keys: content (string) and frontmatter (object).",
                 },
-                {"role": "user", "content": text}
+                {
+                    "role": "user",
+                    "content": f"Target language: {target_lang}\nJSON: {json.dumps(payload, ensure_ascii=False)}",
+                },
             ],
-            temperature=0.3,
-            max_tokens=4000
+            temperature=0.2,
+            max_tokens=9000,
         )
-        return response.choices[0].message.content.strip()
+        raw = response.choices[0].message.content.strip()
+        result = json.loads(raw) if raw.startswith("{") else None
+        if not isinstance(result, dict):
+            raise ValueError("Invalid JSON response")
+        translated_content = result.get("content", content)
+        translated_fm = fm.copy()
+        if isinstance(result.get("frontmatter"), dict):
+            translated_fm.update(result["frontmatter"])
+        return translated_content, translated_fm
     except Exception as e:
-        print(f"Error translating with GPT: {e}")
-        raise
-
-
-def translate_frontmatter(fm: dict, target_lang: str = "English") -> dict:
-    """
-    翻译 frontmatter 中的字段（title, excerpt, categories, tags 等）
-    """
-    translated = fm.copy()
-
-    fields_to_translate = ["title", "excerpt", "description"]
-
-    for field in fields_to_translate:
-        if field in translated and isinstance(translated[field], str):
-            try:
-                print(f"  Translating {field}...", end=" ", flush=True)
-                translated[field] = translate_with_gpt(translated[field], target_lang=target_lang)
-                print("✓")
-            except Exception as e:
-                print(f"✗ (Error: {e})")
-                # 保持原文
-
-    return translated
+        print(f"Error translating post: {e}")
+        return content, fm.copy()
 
 
 def generate_english_filename(original_path: str) -> str:
@@ -112,14 +118,12 @@ def process_post(post_path: str) -> bool:
         with open(post_path, "r", encoding="utf-8") as f:
             post = frontmatter.load(f)
 
-        # 翻译内容
-        print("  Translating content...", end=" ", flush=True)
-        translated_content = translate_with_gpt(post.content)
+        # 单次调用翻译正文 + frontmatter
+        print("  Translating content + metadata (single call)...", end=" ", flush=True)
+        translated_content, translated_fm = translate_post_single_call(
+            post.content, post.metadata
+        )
         print("✓")
-
-        # 翻译 frontmatter
-        print("  Translating metadata...")
-        translated_fm = translate_frontmatter(post.metadata)
 
         # 生成英文版本文件名
         en_path = Path(generate_english_filename(str(post_path)))
@@ -166,5 +170,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
     main()
