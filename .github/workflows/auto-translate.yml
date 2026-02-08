@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install openai PyYAML frontmatter
+          pip install openai PyYAML python-frontmatter
 
       - name: Detect new posts
         id: detect
@@ -54,7 +54,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add _posts/**/en/*.md
+          TRANSLATED_FILES=$(git ls-files -o -m --exclude-standard "_posts/**/en/*.md")
+          if [ -z "$TRANSLATED_FILES" ]; then
+            echo "No new translations to commit"
+            exit 0
+          fi
+          git add $TRANSLATED_FILES
           if git diff --cached --quiet; then
             echo "No new translations to commit"
           else
