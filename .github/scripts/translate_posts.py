@@ -20,9 +20,13 @@ api_key = os.getenv("OPENAI_API_KEY")
 model = os.getenv("OPENAI_MODEL", "gemini-flash-latest")
 base_url = os.getenv("OPENAI_BASE_URL")
 
+
 if not api_key:
     print("Error: OPENAI_API_KEY not set")
     sys.exit(1)
+
+print(f"API Base URL: {base_url}")
+print(f"Model: {model}\n")
 
 client = openai.OpenAI(api_key=api_key, base_url=base_url)
 
@@ -63,17 +67,50 @@ def translate_post_single_call(
             temperature=0.2,
             max_tokens=9000,
         )
-        raw = response.choices[0].message.content.strip()
-        result = json.loads(raw) if raw.startswith("{") else None
+
+        # 调试：检查响应类型
+        print(f"\n  [DEBUG] Response type: {type(response)}")
+
+        # 处理不同类型的响应
+        if isinstance(response, str):
+            print(f"  [DEBUG] Response is string (likely error), content:\n{response[:500]}\n")
+            raw = response
+        elif hasattr(response, 'choices'):
+            raw = response.choices[0].message.content.strip()
+            print(f"\n  [DEBUG] API Response (first 500 chars):\n  {raw[:500]}\n")
+        else:
+            raise ValueError(f"Unexpected response type: {type(response)}")
+
+        # 尝试解析 JSON
+        if not raw.startswith("{"):
+            # 尝试移除 markdown 代码块包装
+            if raw.startswith("```"):
+                lines = raw.split("\n")
+                # 移除第一行的 ```json 或 ```
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                # 移除最后一行的 ```
+                if lines and lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                raw = "\n".join(lines).strip()
+                print("  [INFO] Removed markdown code block wrapper")
+
+            if not raw.startswith("{"):
+                print(f"  [ERROR] Response doesn't start with '{{', starts with: {raw[:50]}")
+                raise ValueError(f"Invalid JSON response format. Response starts with: {raw[:100]}")
+
+        result = json.loads(raw)
         if not isinstance(result, dict):
-            raise ValueError("Invalid JSON response")
+            raise ValueError(f"Invalid JSON response: expected dict, got {type(result)}")
         translated_content = result.get("content", content)
         translated_fm = fm.copy()
         if isinstance(result.get("frontmatter"), dict):
             translated_fm.update(result["frontmatter"])
         return translated_content, translated_fm
     except Exception as e:
-        print(f"Error translating post: {e}")
+        print(f"\n  [ERROR] Translation failed: {e}")
+        import traceback
+        print(f"  [TRACEBACK] {traceback.format_exc()}")
         return content, fm.copy()
 
 
@@ -132,7 +169,7 @@ def process_post(post_path: str) -> bool:
         # 写入英文文章
         en_post = frontmatter.Post(translated_content, **translated_fm)
         with open(en_path, "w", encoding="utf-8") as f:
-            frontmatter.dump(en_post, f)
+            f.write(frontmatter.dumps(en_post))
 
         print(f"  ✓ Saved to: {en_path}")
         return True
