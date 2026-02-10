@@ -117,24 +117,18 @@ def translate_post_single_call(
 def generate_english_filename(original_path: str) -> str:
     """
     生成英文文章的文件名
-    原: _posts/2025-01-11-example.md
-    新: _posts/2025-01-11/en/example.md
+    原: _posts/20250111/2025-01-11-example.md
+    新: _posts/20250111/2025-01-11-example.en.md
     """
     path = Path(original_path)
 
-    # 提取日期前缀 (YYYY-MM-DD)
+    # 在原文件名后添加 .en 后缀
+    # 例如: 2025-01-11-example.md -> 2025-01-11-example.en.md
     stem = path.stem  # "2025-01-11-example"
-    parts = stem.split("-", 3)
+    new_filename = f"{stem}.en{path.suffix}"  # "2025-01-11-example.en.md"
 
-    if len(parts) >= 4:
-        date_prefix = "-".join(parts[:3])  # "2025-01-11"
-        filename = "-".join(parts[3:])  # "example"
-    else:
-        date_prefix = stem
-        filename = "post"
-
-    # 新路径: _posts/2025-01-11/en/example.md
-    new_path = path.parent / date_prefix / "en" / f"{filename}.md"
+    # 保持在同一目录下
+    new_path = path.parent / new_filename
     return str(new_path)
 
 
