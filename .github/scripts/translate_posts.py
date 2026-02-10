@@ -137,16 +137,21 @@ def process_post(post_path: str) -> bool:
     处理单个文章：翻译内容和 frontmatter，生成英文版本
     """
     try:
-        post_path = Path(post_path)
+        path = Path(post_path)
 
-        if not post_path.exists():
-            print(f"⚠ File not found: {post_path}")
+        if not path.exists():
+            print(f"⚠ File not found: {path}")
             return False
 
-        print(f"\n📄 Processing: {post_path}")
+        # 跳过已经是英文版本的文件
+        if path.stem.endswith('.en'):
+            print(f"\n⏭️  Skipping (already English): {path}")
+            return True
+
+        print(f"\n📄 Processing: {path}")
 
         # 读取原文章
-        with open(post_path, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             post = frontmatter.load(f)
 
         # 单次调用翻译正文 + frontmatter
@@ -157,7 +162,7 @@ def process_post(post_path: str) -> bool:
         print("✓")
 
         # 生成英文版本文件名
-        en_path = Path(generate_english_filename(str(post_path)))
+        en_path = Path(generate_english_filename(str(path)))
         en_path.parent.mkdir(parents=True, exist_ok=True)
 
         # 写入英文文章
