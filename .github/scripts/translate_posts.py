@@ -33,9 +33,10 @@ client = openai.OpenAI(api_key=api_key, base_url=base_url)
 
 def translate_post_single_call(
     content: str, fm: dict, target_lang: str = "English"
-) -> tuple[str, dict]:
+) -> tuple[str, dict] | tuple[None, None]:
     """
     单次调用翻译正文 + frontmatter
+    返回 (None, None) 表示翻译失败
     """
     fields_to_translate = ["title", "excerpt", "description"]
     fm_payload = {
@@ -106,12 +107,16 @@ def translate_post_single_call(
         translated_fm = fm.copy()
         if isinstance(result.get("frontmatter"), dict):
             translated_fm.update(result["frontmatter"])
+
+        # 添加语言标记
+        translated_fm["lang"] = "en"
+
         return translated_content, translated_fm
     except Exception as e:
         print(f"\n  [ERROR] Translation failed: {e}")
         import traceback
         print(f"  [TRACEBACK] {traceback.format_exc()}")
-        return content, fm.copy()
+        return None, None  # 翻译失败返回 None
 
 
 def generate_english_filename(original_path: str) -> str:
@@ -154,19 +159,32 @@ def process_post(post_path: str) -> bool:
         with open(path, "r", encoding="utf-8") as f:
             post = frontmatter.load(f)
 
+        # 生成英文版本文件名
+        en_path = Path(generate_english_filename(str(path)))
+
+        # 检查英文文件是否已存在
+        if en_path.exists():
+            print(f"  ℹ️  English version already exists, will overwrite: {en_path}")
+
         # 单次调用翻译正文 + frontmatter
         print("  Translating content + metadata (single call)...", end=" ", flush=True)
         translated_content, translated_fm = translate_post_single_call(
             post.content, post.metadata
         )
+
+        # 检查翻译是否成功
+        if translated_content is None or translated_fm is None:
+            print("✗")
+            print("  ✗ Translation failed, skipping file creation")
+            return False
+
         print("✓")
 
-        # 生成英文版本文件名
-        en_path = Path(generate_english_filename(str(path)))
-        en_path.parent.mkdir(parents=True, exist_ok=True)
-
         # 写入英文文章
-        en_post = frontmatter.Post(translated_content, **translated_fm)
+        en_path.parent.mkdir(parents=True, exist_ok=True)
+        # 确保 translated_fm 是字典类型
+        fm_dict = dict(translated_fm) if translated_fm is not None else {}
+        en_post = frontmatter.Post(translated_content, **fm_dict)
         with open(en_path, "w", encoding="utf-8") as f:
             f.write(frontmatter.dumps(en_post))
 
