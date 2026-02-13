@@ -42,7 +42,7 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          working-directory: .
+          working-directory: ./_site
 
   # --- 任务 2: 部署 (Deploy) ---
   # 注意：Vercel 部署已集成到 Build 任务中，无需额外的 Deploy 任务
