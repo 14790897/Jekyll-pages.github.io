@@ -2,9 +2,9 @@
 title:  Windows 睡眠唤醒后窗口“缩成一团”？彻底解决 Rapid HPD 问题的终极指南
 date: 2026-02-13
 categories:
-  - philosophy
+  - tech
 tags:
-  - 
+  - windows
 ---
 
 
