@@ -159,14 +159,6 @@ def process_post(post_path: str) -> bool:
         with open(path, "r", encoding="utf-8") as f:
             post = frontmatter.load(f)
 
-        # 为原文添加语言标记（如果还没有）
-        if "lang" not in post.metadata:
-            post.metadata["lang"] = "zh"
-            # 保存更新后的原文
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(frontmatter.dumps(post))
-            print(f"  ℹ️  Added lang: zh to original file")
-
         # 生成英文版本文件名
         en_path = Path(generate_english_filename(str(path)))
 
