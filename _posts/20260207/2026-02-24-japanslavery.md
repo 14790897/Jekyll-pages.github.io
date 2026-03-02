@@ -5,10 +5,9 @@ categories:
   - history
 tags:
   - slavery
-  - japam
+  - japan
 
 ---
-
 
 在探讨近现代东亚历史与地缘政治时，有一个词汇始终重如千钧，那就是“慰安妇”。
 
