@@ -2,7 +2,7 @@
 title: VS Code 隐藏技巧：不用 Jupyter Notebook 也能拥有交互式体验
 date: 2026-01-14
 categories:
-  - finance
+  - tech
 tags:
   - NASDAQ100
   - QQQM
