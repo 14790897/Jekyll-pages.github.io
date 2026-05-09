@@ -1,6 +1,6 @@
 ---
 title: 彻底搞懂 Next.js 渲染策略：从纯静态到动态的混合架构优化实践
-date: 2026-05-09
+date: 2026-05-08
 categories:
   - tech
 tags:
