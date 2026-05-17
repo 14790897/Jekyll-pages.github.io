@@ -124,9 +124,6 @@ author:
   location         : "Shanghai"
   email            : "mailto:liuweiqing147@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url:  "mailto:liuweiqing147@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -145,6 +142,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hahhha_1"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/user/liuweiqing/"
     - label: "支付宝"
       icon: "fas fa-fw fa-qrcode"
       url: "/assets/images/zhifubao.jpg"
@@ -177,6 +177,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hahhha_1"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/user/liuweiqing/"
       # url:
   since: "2023"
 
